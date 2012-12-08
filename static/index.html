@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="js/Three.js"></script>
+    <script src="js/Detector.js"></script>
+    <script src="js/Stats.js"></script>
+    <script src="js/THREEx.KeyboardState.js"></script>
+    <script src="js/THREEx.FullScreen.js"></script>
+    <script src="js/THREEx.WindowResize.js"></script>
+    <script>
+      $(function() {
+        function animateBone(modelPath) {
+          init(modelPath);
+          animate(new Date().getTime());
+        }
+
+        /* 	Three.js  */
+
+        // MAIN
+        if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
+        // standard global variables
+        var container, scene, camera, renderer, controls, stats;
+        var keyboard = new THREEx.KeyboardState();
+        var clock = new THREE.Clock();
+
+        // custom global variables
+        var android;
+
+        // FUNCTIONS 		
+        function init(modelPath) 
+        {
+          // SCENE
+          scene = new THREE.Scene();
+          // CAMERA
+          var SCREEN_WIDTH = window.innerWidth, SCREEN_HEIGHT = window.innerHeight;
+          var VIEW_ANGLE = 45, ASPECT = SCREEN_WIDTH / SCREEN_HEIGHT, NEAR = 0.1, FAR = 20000;
+          camera = new THREE.PerspectiveCamera( VIEW_ANGLE, ASPECT, NEAR, FAR);
+          scene.add(camera);
+          camera.position.set(0,150,400);
+          camera.lookAt(scene.position);	
+          // RENDERER
+          renderer = new THREE.WebGLRenderer( {antialias:true} );
+          renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
+          container = document.createElement( 'div' );
+          document.body.appendChild( container );
+          container.appendChild( renderer.domElement );
+          // EVENTS
+          THREEx.WindowResize(renderer, camera);
+          THREEx.FullScreen.bindKey({ charCode : 'm'.charCodeAt(0) });
+          // CONTROLS
+          controls = new THREE.TrackballControls( camera );
+          // STATS
+          stats = new Stats();
+          stats.domElement.style.position = 'absolute';
+          stats.domElement.style.bottom = '0px';
+          stats.domElement.style.zIndex = 100;
+          container.appendChild( stats.domElement );
+          // LIGHT
+          var light = new THREE.PointLight(0xffffff);
+          light.position.set(-100,200,100);
+          scene.add(light);
+          // SKYBOX/FOG
+          var skyBoxGeometry = new THREE.CubeGeometry( 10000, 10000, 10000 );
+          var skyBoxMaterial = new THREE.MeshBasicMaterial( { color: 0x9999ff } );
+          var skyBox = new THREE.Mesh( skyBoxGeometry, skyBoxMaterial );
+          skyBox.flipSided = true; // render faces from inside of the cube, instead of from outside (default).
+          // scene.add(skyBox);
+          scene.fog = new THREE.FogExp2( 0x9999ff, 0.00025 );
+
+          ////////////
+          // CUSTOM //
+          ////////////
+
+          // Note: if imported model appears too dark,
+          //   add an ambient light in this file
+          //   and increase values in model's exported .js file
+          //    to e.g. "colorAmbient" : [0.75, 0.75, 0.75]
+          var jsonLoader = new THREE.JSONLoader();
+          jsonLoader.load( modelPath, addModelToScene );
+          // addModelToScene function is called back after model has loaded
+
+          var ambientLight = new THREE.AmbientLight(0x111111);
+          scene.add(ambientLight);
+
+        }
+
+        function addModelToScene( geometry ) 
+        {
+          var material = new THREE.MeshFaceMaterial();
+          android = new THREE.Mesh( geometry, material );
+          THREE.GeometryUtils.center(geometry);
+
+          var lambda = 0.05;
+
+          var box = geometry.boundingBox;
+          var delta = new THREE.Vector3().sub(box.max, box.min);
+          var maxDelta = Math.max.apply(Math, [delta.x, delta.y, delta.z]);
+          android.scale.set(lambda*maxDelta,lambda*maxDelta,lambda*maxDelta);
+
+          scene.add( android );
+        }
+
+        function animate(t) {
+          camera.position.x = Math.sin(t/1000)*300;
+          camera.position.y = 150;
+          camera.position.z = Math.cos(t/1000)*300;
+          camera.lookAt(scene.position)
+          renderer.render(scene, camera);
+
+          requestAnimationFrame( animate, renderer.domElement );
+          render();		
+          update();
+        }
+
+        function update()
+        {
+          if ( keyboard.pressed("z") ) 
+          { 
+            // do something
+          }
+
+          controls.update();
+          stats.update();
+        }
+
+        function render() 
+        {
+          renderer.render( scene, camera );
+        }
+
+
+        $('#obj').bind('click', function() {
+          window.open('api/id_to_obj/' + window.bid + '.obj', '_blank');
+        });
+
+        $('#gcode').bind('click', function() {
+          window.open('api/id_to_gcode/' + window.bid + '.gcode', '_blank');
+        });
+
+        $('#options').hide();
+        $('#obj_upload').hide();
+
+        function bone_select() {
+          $('#options').show();
+          window.bid = $('#bones option:selected').val();
+          animateBone('api/id_to_render/' + window.bid);
+        }
+
+        $.ajax({
+          url: "api/list_of_bones",
+          dataType: 'json'
+        }).done(function(data) {
+          $.each(data, function(v, k) {
+            $('#bones').append('<option value="' + k['bid'] + '">' + k['name'] + '</option>');
+          });
+          $('#bones').bind('change', bone_select);
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="initial">
+      Choose a bone
+      <form>
+        <select id="bones">
+          <option value=""></option>
+        </select>
+      </form>
+    </div>
+    <div id="options">
+      <a id="obj">Obj</a> or <a id="gcode">gcode</a>?
+    </div>
+    <div id="obj_upload">
+      return gcode
+    </div>
+  </body>
+</html>

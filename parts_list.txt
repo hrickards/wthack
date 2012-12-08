@@ -1,0 +1,1524 @@
+"id"	en	kanji	kana
+FMA20394	human body	人体	じんたい
+FMA7153	cardinal body part	人体の体部	じんたいのたいぶ
+FMA7154	head	頭;アタマ	あたま
+FMA49187	occipital part of head	後頭	こうとう
+FMA52780	ear	耳/耳;ミミ	みみ
+FMA24728	face	顔;カオ	かお
+FMA54448	eye	眼;メ/眼および関係構造/眼窩部	め
+FMA46476	cheek	頬;ホホ	ほほ
+FMA46472	nose	鼻;ハナ/鼻	はな
+FMA49184	mouth	口部/口;クチ	こうぶ；くち
+FMA46495	chin	オトガイ部;頤部/オトガイ;頤	おとがいぶ；おとがい
+FMA7155	neck	頚;クビ	くび
+FMA7181	trunk	体幹	たいかん
+FMA9576	thorax	胸郭/胸腔；胸郭	きょうかく/きょうくう；きょうかく
+FMA24816	anterior chest	胸;ムネ	むね
+FMA9577	abdomen	腹;ハラ	はら
+FMA9578	pelvis	骨盤	しょうこつばん；しんこつばん/こつばん
+FMA14181	back	背;セナカ	せ；せなか
+FMA7183	upper limb	上肢	じょうし
+FMA23217	pectoral girdle	上肢帯;胸帯;肩帯	じょうしたい；きょうたい；けんたい
+FMA24864	axilla	腋窩部/腋窩;ワキノシタ	えきかぶ/えきか；わきのした
+FMA24890	arm	上腕;ニノウデ/上腕部	じょうわん；にのうで/じょうわんぶ
+FMA24901	elbow	肘部;肘;ヒジ/肘;ヒジ	ちゅうぶ；ひじ
+FMA9663	forearm	前腕部/前腕;マエウデ	ぜんわんぶ/ぜんわん；まえうで
+FMA9712	hand	手;テ	て
+FMA24922	wrist	手根;テクビ/手根部	しゅこん；てくび/しゅこんぶ
+FMA24920	palm	手掌部/手掌;テノヒラ	しゅしょうぶ/しゅしょう：てのひら
+FMA75592	set of fingers	手の指	てのゆび
+FMA7184	lower limb	下肢	かし
+FMA16581	pelvic girdle	下肢帯;骨盤帯	かしたい；こつばんたい
+FMA24964	hip	寛骨部;股関節部	かんこつぶ；こかんせつぶ
+FMA24967	thigh	大腿	だいたい
+FMA24974	knee	膝;ヒザ	ひざ
+FMA24979	leg	下腿;スネ	かたい；すね
+FMA9664	foot	足	あし
+FMA25045	dorsal part of foot	足背;アシノコウ/足背部;足背	あしのこう/そくはいぶ
+FMA70664	set of toes	趾;足の指/趾;足の指;アシノユビ	ゆび；あしのゆび
+FMA71917	set of immaterial anatomical entities	平面、線および部位	へいめん、せんおよびぶい
+FMA61824	frontal lobe	前頭葉/前頭部	ぜんとうよう
+FMA61826	parietal lobe	頭頂部/頭頂葉	とうちょうよう
+FMA67325	occipital lobe	後頭部/後頭葉	こうとうよう
+FMA54393	subdivision of face	顔の部位	かおのぶい
+FMA46488	buccal part of mouth	頬部	きょうぶのきん
+FMA46489	subdivision of external nose	鼻部	びぶ
+FMA24189	back of neck	後頚部;項部;ウナジ	こうけいぶ；けいぶ；うなじ
+FMA61471	pectoral part of chest	胸筋部	きょうきんぶ
+FMA24228	posterior part of pelvis	仙骨部	せんこつぶ
+FMA25200	scapular part of pectoral girdle	肩甲部	けんこうぶ
+FMA61681	back of abdomen	腰部	ようぶ
+FMA9579	perineum	会陰/会陰の部位;会陰部;会陰三角	えいん/えいんのぶい；えいんぶ；えいんさんかく
+FMA20347	anal part of perineum	肛門部;肛門三角	こうもんぶ；こうもんさんかく
+FMA20348	urogenital part of perineum	尿生殖部;尿生殖三角;尿生殖器部	にょうせいしょくぶ；にょうせいしょくさんかく；にょうせいしょくきぶ
+FMA73004	deltoid part of pectoral girdle	三角筋部	さんかくきんぶ
+FMA24891	anterior part of arm	前上腕部;上腕前部	ぜんじょうわんぶ；じょうわんぜんぶ
+FMA24892	posterior part of arm	後上腕部;上腕後部	こうじょうわんぶ；じょうわんこうぶ
+FMA24904	anterior part of elbow	前肘部;前肘面;肘前部	ぜんちゅうぶ；ぜんちゅうめん：ちゅうぜんぶ
+FMA24907	posterior part of elbow	後肘部;肘後部	こうちゅうぶ；ちゅうこうぶ
+FMA24911	posterior part of forearm	後前腕部;前腕後部	こうぜんわんぶ；ぜんわんこうぶ
+FMA24945	segment of hand	手部	しゅぶ
+FMA61520	thenar eminence	母指球	ぼしきゅう
+FMA61523	hypothenar eminence	小指球	しょうしきゅう
+FMA24938	thumb	母指;オヤユビ;第一指	ぼし；おやゆび；だいいっし
+FMA24946	index finger	示指;ヒトサシユビ（第二指）	じし；ひとさしゆび（だいにし）
+FMA24947	middle finger	中指;ナカユビ（第三指）	なかゆび（だいさんし）
+FMA24948	ring finger	薬指;クスリユビ;第四指	くすりゆび；だいよんし
+FMA24949	little finger	小指;コユビ;第五指	こゆび；だいごし
+FMA74846	segment of knee	膝部	しつぶ
+FMA24975	anterior part of knee	前膝部	ぜんしつぶ
+FMA24993	segment of foot	足部	そくぶ
+FMA25047	big toe	母趾;足の母指;第一趾;足のオヤユビ	ぼし；あしのぼし；だいいっし；あしのおやゆび
+FMA25048	second toe	第二趾;足の第二指	だいにし；あしのだいにし
+FMA25051	third toe	第三趾;足の第三指	だいさんし；あしのだいさんし
+FMA25052	fourth toe	第四趾;足の第四指	だいよんし；あしのだいようんし
+FMA25053	little toe	小趾;第五趾;足の小指	しょうし；だいごし；あしのこゆび
+FMA23881	skeletal system	骨格系	こっかくけい
+FMA71221	axial skeleton	軸骨格;軸性骨格	じくこっかく；じくせいこっかく
+FMA71222	appendicular skeleton	付属肢骨格;付属性骨格	ふぞくしこっかく；ふぞくせいこっかく
+FMA7474	long bone	長骨	ちょうこつ
+FMA7475	short bone	短骨	たんこつ
+FMA7476	flat bone	扁平骨	へんぺいこつ
+FMA7477	irregular bone	不規則骨;不規則形骨	ふきそくこつ；ふきそくけいこつ
+FMA7478	pneumatized bone	含気骨	がんきこつ
+FMA32672	sesamoid bone	種子骨	しゅしこつ
+FMA46565	skull	頭蓋;ズガイ	ずがい
+FMA53672	neurocranium	脳頭蓋;神経頭蓋	のうずがい；しんけいずがい
+FMA53673	viscerocranium	内臓頭蓋;顔面頭蓋	ないぞうずがい；がんめんずがい
+FMA52735	occipital bone	後頭/後頭骨	こうとうこつ
+FMA52801	basicranium	頭蓋底	ずがいてい
+FMA53074	orbit	眼窩	がんか
+FMA54379	orbital compartment	眼窩	がんかかいとちょっかい
+FMA75740	bony nasal cavity	鼻腔;骨鼻腔	びくう；こつびくう
+FMA60118	skeleton of nasal septum	骨鼻中隔	こつびちゅうかく
+FMA9613	parietal bone	頭頂骨	とうちょうこつ
+FMA52734	frontal bone	前頭骨	ぜんとうこつ
+FMA52736	sphenoid bone	蝶形骨	ちょうけいこつ
+FMA52737	temporal bone	側頭骨	そくとうこつ
+FMA52740	ethmoid	篩骨	しこつ
+FMA54736	inferior nasal concha	下鼻甲介	かびこうかい
+FMA52741	lacrimal bone	涙骨	るいこつ
+FMA52745	nasal bone	鼻骨	びこつ
+FMA9710	vomer	鋤骨	じょこつ
+FMA9711	maxilla	上顎骨	じょうがくこつ
+FMA52746	palatine bone	口蓋骨	こうがいこつ
+FMA52747	zygomatic bone	頬骨	きょうこつ
+FMA52748	mandible	下顎骨	かがくこつ
+FMA52749	hyoid bone	舌骨	ぜつこつ
+FMA13478	vertebral column	脊柱	せきちゅう
+FMA9914	vertebra	椎骨	ついこつ
+FMA72063	set of cervical vertebrae	頚椎[C1-C7]	けいつい
+FMA12519	atlas	環椎[C1];第一頚椎	だいいちけいつい
+FMA12520	axis	軸椎[C2];第二頚椎	だいにけいつい
+FMA12525	seventh cervical vertebra	隆椎;第七頚椎	だいななけいつい
+FMA72064	set of thoracic vertebrae	胸椎［T1-T12］	きょうつい
+FMA72065	set of lumbar vertebrae	腰椎[L1－L5]	ようこつ
+FMA16202	sacrum	仙骨;仙椎[1－5]	せんこつ
+FMA71331	set of ribs	肋骨[1-12]	ろっこつ
+FMA7591	costal cartilage	肋軟骨	ろくなんこつ
+FMA7574	rib	肋硬骨	ろくこうまく
+FMA7597	first rib	第一肋骨	だいいちろっこつ
+FMA7620	second rib	第二肋骨	だいいちろっこつ
+FMA7485	sternum	胸骨	きょうこつ
+FMA7486	manubrium	胸骨柄	きょうこつへい
+FMA7487	body of sternum	胸骨体	きょうこつたい
+FMA7488	xiphoid process	剣状突起	けんじょうとっき
+FMA7480	rib cage	胸郭	きょうかく
+FMA24139	skeleton of upper limb	上肢骨	
+FMA25570	bony pectoral girdle	上肢帯;胸帯;肩帯	じょうしたい；きょうたい；けんたい
+FMA13394	scapula	肩甲骨	けんこうこつ
+FMA13321	clavicle	鎖骨	さこつ
+FMA61406	skeletal system of free upper limb	自由上肢骨;上肢の自由部	
+FMA13303	humerus	上腕骨	じょうわんこつ
+FMA23463	radius	橈骨	とうこつ
+FMA23466	ulna	尺骨	しゃくこつ
+FMA71335	set of carpal bones	手根骨	しゅこんこつ
+FMA23709	scaphoid	舟状骨［手の］	せんじょうこつ（ての）
+FMA23712	lunate	月状骨	げつじょうこつ
+FMA23715	triquetral	三角骨	さんかくかい
+FMA23718	pisiform	豆状骨	とうじょうこつ
+FMA23721	trapezium	大菱形骨	だいりょうけいきん
+FMA23724	trapezoid	小菱形骨	しょうりょうけいこつ
+FMA23727	capitate	有頭骨	ゆうとうこつ
+FMA23730	hamate	有鈎骨	ゆうこうこつ
+FMA71336	set of metacarpal bones	中手骨[1-5]	ちゅうしゅこつ
+FMA231315	set of phalanges	指骨;手の指節骨/趾骨;趾節骨;足の指骨;趾節骨	しこつ；てのしせつこつ；しこつ：しせつこつ；あしのしこつ；しせつこつ
+FMA24140	skeleton of lower limb	下肢骨	かしこつ
+FMA16585	hip bone	寛骨	かんこつ
+FMA16580	bony pelvis	骨盤	こつばん
+FMA61409	skeletal system of free lower limb	自由下肢骨;自由下肢部	
+FMA9611	femur	大腿骨	だいたいこつ
+FMA24485	patella	膝蓋骨	しつがいこつ
+FMA24476	tibia	脛骨	けいこつ
+FMA24479	fibula	腓骨	ひこつ
+FMA24222	skeleton of foot	足の骨;足骨	あしのほね；そっこつ
+FMA71339	set of tarsal bones	足根骨	そっこんこつ
+FMA9708	talus	距骨	きょうこつ
+FMA24496	calcaneus	踵骨	しゅこつ
+FMA24499	navicular bone of foot	舟状骨［足の］	せんじょうこつ（あしの）
+FMA24518	medial cuneiform bone	内側楔状骨	ないそくけつじょうこつ
+FMA24519	intermediate cuneiform bone	中間楔状骨	ちゅうかんけつじょうこつ
+FMA24520	lateral cuneiform bone	外側楔状骨	がいそくけいじょうこつ
+FMA24527	cuboid bone	立方骨	りっぽうこつ
+FMA71340	set of metatarsal bones	中足骨[1-5]	ちゅうそくこつ
+FMA23878	articular system	関節系；連結	かんせつけい；れんけつ
+FMA7490	joint	連結	れんけつ
+FMA71352	set of bony joints	骨の連結	ほねのれんけつ
+FMA7491	nonsynovial joint	不動関節;不動結合;関節癒合	ふどうけっせつ；ふどうけつごう；かんせつゆうごう
+FMA7492	fibrous joint	線維性の連結	せんせいのれんけつ
+FMA7494	syndesmosis	靱帯結合	じんたいけつごう
+FMA54839	interosseous membrane	骨間膜	こつかんまく
+FMA7496	cartilaginous joint	軟骨性の連結	なんこつせいのれんけつ
+FMA7498	symphysis	線維軟骨結合;結合	せんいなんこつけつごう
+FMA7501	synovial joint	滑膜性の連結;関節［狭義の］;可動関節	かつまくせいのれんけつ；かんせつ；かどうかんせつ
+FMA70773	set of ligaments	靱帯	じんたい
+FMA59762	gingiva	歯肉/保護歯周組織;歯肉/歯肉;シニク	しにく
+FMA76695	intervertebral joint	椎間結合	ついかんけつごう
+FMA10446	intervertebral disk	椎間円板	ついかんえんばん
+FMA39432	radio-ulnar syndesmosis	橈尺靱帯結合	とうしゃくじんたいけつごう
+FMA23706	interosseous membrane of forearm	前腕骨間膜	ぜんわんこつかんまく
+FMA71348	set of joints of free lower limb	自由下肢の連結	じゆうかしのれんけつ
+FMA10465	inferior tibiofibular joint	脛腓靱帯結合	けいひじんたいけつごう
+FMA35187	interosseous membrane of leg	下腿骨間膜	かたいこつかんまく
+FMA35181	tibiofibular joint	脛腓関節	けいひかんせつ
+FMA71411	set of tarsal ligaments	足根靱帯	そっこんじんたい
+FMA71415	set of plantar tarsal ligaments	底側足根靱帯	ていそくそっこんじんたい
+FMA44248	long plantar ligament	長足底靱帯	ちょうそくていじんたい
+FMA72954	muscular system	筋系；筋	きんけい；きん
+FMA46569	fascicular architecture of muscle	一般用語（筋系；筋の）　	いっぱんようご（きんけい；きんの）
+FMA85453	head of muscle organ	筋頭	きんとう
+FMA9719	muscle belly	筋腹	きんぷく
+FMA23081	rotator muscle	回旋筋	かいせんきん
+FMA9721	tendon	腱	けん
+FMA65410	intermediate tendon	中間腱	ちゅうかんけん
+FMA9722	aponeurosis	腱膜	ずいまく
+FMA71287	musculature of head	頭部の筋	とうぶのきん
+FMA46750	epicranius	頭蓋表筋	ずがいひょうきん
+FMA9624	occipitofrontalis	後頭前頭筋	こうとうぜんとうきん
+FMA46757	frontalis	前頭筋;後頭前頭筋の前腹	ぜんとうきん
+FMA46758	occipitalis	後頭筋;頭蓋表筋の後頭前頭筋の後腹	こうとうきん
+FMA46753	temporoparietalis	側頭頭頂筋	そくとうとうちょうきん
+FMA46768	aponeurosis of epicranius	帽状腱膜;上頭蓋腱膜;頭外被腱膜	ぼうじょうけんまく
+FMA46769	procerus	鼻根筋	びこんきん
+FMA46770	nasalis	鼻筋	びきん
+FMA46777	depressor septi nasi	鼻中隔下制筋	びちゅうかくかせいきん
+FMA46779	orbicularis oculi	眼輪筋	がんりんきん
+FMA46784	palpebral part of orbicularis oculi	眼輪筋の眼瞼部	がんりんきんがんけんぶ
+FMA46781	orbital part of orbicularis oculi	眼輪筋の眼窩部	がんりんきんがんかぶ
+FMA46794	corrugator supercilii	皺眉筋	しゅうびきん
+FMA46841	orbicularis oris	口輪筋	こうりんきん
+FMA46828	depressor anguli oris	口角下制筋;オトガイ三角筋	こうかくかせいきん
+FMA46838	risorius	笑筋	しょうきん
+FMA46810	zygomaticus major	大頬骨筋	だいきょうこつきん
+FMA46811	zygomaticus minor	小頬骨筋	しょうきょうこつきん
+FMA46805	levator labii superioris	上唇挙筋;眼窩下筋	じょうしんきょきん
+FMA46802	levator labii superioris alaeque nasi	上唇鼻翼挙筋;眼角筋	じょうしんびよくきょきん
+FMA46816	depressor labii inferioris	下唇下制筋	かしんかせいきん
+FMA46822	levator anguli oris	口角挙筋;犬歯筋	こうかくきょきん
+FMA46834	buccinator	頬筋	きょうきん
+FMA46825	mentalis	オトガイ筋	おとがいきん
+FMA48996	masseter	咬筋	こうきん
+FMA49000	superficial part of masseter	咬筋の浅部	こうきんせんぶ
+FMA49003	deep part of masseter	咬筋の深部	こうきんしんぶ
+FMA49006	temporalis	側頭筋	そくとうきん
+FMA49015	lateral pterygoid	外側翼突筋	がいそくよくとつきん
+FMA49020	upper head of lateral pterygoid	外側翼突筋の上頭	がいそくよくとつきんじょうとう
+FMA49021	lower head of lateral pterygoid	外側翼突筋の下頭	がいそくよくとつきんかとう
+FMA49011	medial pterygoid	内側翼突筋	ないそくよくとつきん
+FMA71290	musculature of neck	頚部の筋	けいぶのきん
+FMA45738	platysma	広頚筋	こうけいきん
+FMA13370	longus colli	頚長筋	けいちょうきん
+FMA46308	longus capitis	頭長筋	とうちょうきん
+FMA13385	scalenus anterior	前斜角筋	ぜんしゃかくきん
+FMA13386	scalenus medius	中斜角筋	ちゅうしゃかくきん
+FMA13387	scalenus posterior	後斜角筋	こうしゃかくきん
+FMA13407	sternocleidomastoid	胸鎖乳突筋	きょうさにゅうとつきん
+FMA46312	rectus capitis anterior	前頭直筋	ぜんとうちょくきん
+FMA46316	rectus capitis lateralis	外側頭直筋	がいそくとうちょうきん
+FMA32525	rectus capitis posterior major	大後頭直筋	だいこうとうちょくきん
+FMA32526	rectus capitis posterior minor	小後頭直筋	しょうこうとうちょくきん
+FMA32527	obliquus capitis superior	上頭斜筋	じょうとうしゃきん
+FMA32528	obliquus capitis inferior	下頭斜筋	かとうしゃきん
+FMA46291	digastric	顎二腹筋	がくにふくきん
+FMA46302	anterior belly of digastric	顎二腹筋の前腹	がくにふくきんぜんぷく
+FMA46303	posterior belly of digastric	顎二腹筋の後腹	がくにふくきんこうふく
+FMA9625	stylohyoid	茎突舌骨筋	けいとつぜつこつきん
+FMA46320	mylohyoid	顎舌骨筋	がくぜつこつきん
+FMA46325	geniohyoid	オトガイ舌骨筋	おとがいぜつこつきん
+FMA13341	sternohyoid	胸骨舌骨筋	きょうこつぜつこつきん
+FMA13342	omohyoid	肩甲舌骨筋	けんこうぜつこつきん
+FMA13343	sternothyroid	胸骨甲状筋	きょうこつこうじょうきん
+FMA13344	thyrohyoid	甲状舌骨筋	こうじょうぜつこつきん
+FMA71291	musculature of back	背部の筋	はいぶのきん
+FMA9626	trapezius	僧帽筋	そうぼうきん
+FMA32556	transverse part of trapezius	下行部;僧帽筋の上部/水平部;僧帽筋の横行部	そうぼうきんすいへいぶ
+FMA32555	ascending part of trapezius	上行部;僧帽筋の下部	そうぼうきんじょうこうぶ
+FMA32557	descending part of trapezius	上行部;僧帽筋の下部	そうぼうきんかこうぶ
+FMA13357	latissimus dorsi	広背筋	こうはいきん
+FMA13379	rhomboid major	大菱形筋	だいりょうけいきん
+FMA13380	rhomboid minor	小菱形筋	しょうりょうけいきん
+FMA32519	levator scapulae	肩甲挙筋	けんこうきょきん
+FMA13402	serratus posterior inferior	下後鋸筋	かこうきょきん
+FMA13401	serratus posterior superior	上後鋸筋	じょうこうきょきん
+FMA71442	set of anterior cervical intertransversarii	頚前横突間筋	けいぜんおうとつかんきん
+FMA71443	set of posterior cervical intertransversarii	頚外側後横突間筋	けいがいこうおうとつかんきん
+FMA71444	set of lateral lumbar intertransversarius muscles	腰外側横突間筋	ようぶがいそくおうとつかんきん
+FMA77177	iliocostalis	腸肋筋	ちょうろくきん
+FMA22702	iliocostalis lumborum	腰腸肋筋	ようちょうろくきん
+FMA22704	iliocostalis cervicis	頚腸肋筋	けいちょうろくきん
+FMA77178	longissimus	最長筋	さいちょうきん
+FMA22709	longissimus thoracis	胸最長筋	きょうさいちょうきん
+FMA22711	longissimus cervicis	頚最長筋	けいさいちょうきん
+FMA22714	longissimus capitis	頭最長筋	とうさいちょうきん
+FMA77179	spinalis	棘筋	きょくきん
+FMA22765	spinalis thoracis	胸棘筋	きょうきょくきん
+FMA77180	splenius	板状筋	ばんじょうきん
+FMA22653	splenius capitis	頭板状筋	とうばんじょうきん
+FMA22681	splenius cervicis	頚板状筋	けいばんじょうきん
+FMA22827	multifidus	多裂筋	たれつきん
+FMA22823	semispinalis	半棘筋	はんきょくきん
+FMA22828	semispinalis thoracis	胸半棘筋	きょうはんきょくきん
+FMA22829	semispinalis cervicis	頚半棘筋	けいはんきょくきん
+FMA22830	semispinalis capitis	頭半棘筋	とうはんきょくきん
+FMA71305	rotatores muscle group	回旋筋	かいせんきん
+FMA23084	lumbar rotator	腰回旋筋	ようかいせんきん
+FMA23083	thoracic rotator	胸回旋筋	きょうかいせんきん
+FMA23082	cervical rotator	頚回旋筋	けいかいせんきん
+FMA71306	set of interspinales	棘間筋	きょくかんきん
+FMA71307	set of interspinales lumborum	腰棘間筋	ようきょくかんきん
+FMA71308	set of interspinales thoracis	胸棘間筋	きょうきょくかんきん
+FMA71309	set of interspinales cervicis	頚棘間筋	けいきょくかんきん
+FMA76775	set of medial lumbar intertransversarius muscles	腰内側横突間筋	ようないそくおうとつかんきん
+FMA71293	musculature of thorax	胸部の筋	きょうぶのきん
+FMA9627	pectoralis major	大胸筋	だいきょうきん
+FMA34687	clavicular part of pectoralis major	大胸筋の鎖骨部	だいきょうきんさこつぶ
+FMA34696	sternocostal part of pectoralis major	大胸筋の胸肋部	だいきょうきんきょうろくぶ
+FMA34699	abdominal part of pectoralis major	大胸筋の腹部	だいきょうきんふくぶ
+FMA13109	pectoralis minor	小胸筋	しょうきょうきん
+FMA13410	subclavius	鎖骨下筋	さこつかきん
+FMA13397	serratus anterior	前鋸筋	ぜんきょきん
+FMA71312	set of levatores costarum	肋骨挙筋	ろっこつきょきん
+FMA71313	set of levatores costarum longi	長肋骨挙筋	ちょうろっこつきょきん
+FMA71314	set of levatores costarum breves	短肋骨挙筋	たんろっこつきょきん
+FMA9756	external intercostal muscle	外肋間筋	がいろっかんきん
+FMA9757	internal intercostal muscle	内肋間筋;肋間内筋	ないろっかんきん
+FMA9758	innermost intercostal muscle	最内肋間筋	さいないろっかんきん
+FMA9760	transversus thoracis	胸横筋	きょうおうきん
+FMA13295	diaphragm	横隔膜	おうかくまく
+FMA86917	musculature of abdomen	腹部の筋	ふくぶのきん
+FMA9628	rectus abdominis	腹直筋	ふくちょくきん
+FMA15568	pyramidalis	錐体筋	すいたいきん
+FMA13335	external oblique	外腹斜筋	がいふくしゃきん
+FMA19855	inguinal ligament	鼡径靱帯;鼡径弓	そけいじんたい
+FMA13891	internal oblique	内腹斜筋	ないふくしゃきん
+FMA15570	transversus abdominis	腹横筋	ふくおうきん
+FMA11336	linea alba	白線	はくせん
+FMA15569	quadratus lumborum	腰方形筋	ようほうけいきん
+FMA19726	pelvic diaphragm	骨盤隔膜	こつばんかくまく
+FMA19087	levator ani	肛門挙筋	こうもんきょきん
+FMA19090	pubococcygeus	恥骨尾骨筋/恥骨前立腺筋	ちこつびこつきん
+FMA19091	puborectalis	恥骨直腸筋	ちこつちょうくちょうきん
+FMA19092	iliococcygeus	腸骨尾骨筋	ちょうこつびこつきん
+FMA46442	tendinous arch of levator ani	肛門挙筋腱弓	こうもんきょきんけんきゅう
+FMA19088	coccygeus	坐骨尾骨筋;尾骨筋	ざこつびこつきん
+FMA21930	external anal sphincter	外肛門括約筋	がいこうもんかつやくきん
+FMA71295	musculature of perineum	会陰筋	えいんけん
+FMA9621	muscle of upper limb	上肢の筋	じょうしのきん
+FMA37673	anterior compartment of arm	上腕の前区画;上腕の屈筋区画	じょうわんのぜんくかく；じょうわんのくっきんくかく
+FMA37676	posterior compartment of arm	上腕の後区画;上腕の伸筋区画	じょうわんのこうくかく；じょうわんのしんきんくかく
+FMA12255	anterior compartment of forearm	前腕の前区画;前腕の屈筋区画	ぜんわんのぜんくかく；ぜんわんのくっきんくかく
+FMA38411	posterior compartment of forearm	前腕の後区画;前腕の伸筋区画	ぜんわんのこうくかく；ぜんわんのしんきんくかく
+FMA32521	deltoid	三角筋	さんかくきん
+FMA34677	clavicular part of deltoid	三角筋の鎖骨部	さんかくきんさこつぶ
+FMA34678	acromial part of deltoid	三角筋の肩峰部	さんかくきんけんほうぶ
+FMA34679	spinal part of deltoid	三角筋の肩甲棘部	さんかくきんけんこうきょくぶ
+FMA9629	supraspinatus	棘上筋	きょくじょうきん
+FMA32546	infraspinatus muscle	棘下筋	きょくかきん
+FMA32550	teres minor	小円筋	しょうえんきん
+FMA32549	teres major	大円筋	だいえんきん
+FMA13413	subscapularis	肩甲下筋	けんこうかきん
+FMA37670	biceps brachii	上腕二頭筋	じょうわんにとうきん
+FMA37683	long head of biceps brachii	上腕二頭筋の長頭	じょうわんにとうきんちょうとう
+FMA37682	short head of biceps brachii	上腕二頭筋の短頭	じょうわんにとうきんたんとう
+FMA37664	coracobrachialis	烏口腕筋	うこうわんきん
+FMA37667	brachialis	上腕筋	じょうわんきん
+FMA37688	triceps brachii	上腕三頭筋	じょうわんさんとうきん
+FMA37692	long head of triceps brachii	上腕三頭筋の長頭	じょうわんさんとうきんちょうとう
+FMA37694	lateral head of triceps brachii	上腕三頭筋の外側頭	じょうわんさんとうきんがいそくとう
+FMA37693	medial head of triceps brachii	内側頭;上腕三頭筋の深頭	じょうわんさんとうきんないそくとう
+FMA37704	anconeus	肘筋	ちゅうきん
+FMA38450	pronator teres	円回内筋	えんかいないきん
+FMA38558	humeral head of pronator teres	円回内筋の上腕頭	えんかいないきんじょうわんとう
+FMA38559	ulnar head of pronator teres	円回内筋の尺骨頭	えんかいないきんしゃくこつとう
+FMA38459	flexor carpi radialis	橈側手根屈筋	とうそくしゅこんくっきん
+FMA38462	palmaris longus	長掌筋	ちょうしょうきん
+FMA38465	flexor carpi ulnaris	尺側手根屈筋	しゃくそくしゅこんくっきん
+FMA38615	humeral head of flexor carpi ulnaris	尺側手根屈筋の上腕頭	しゃくそくしゅこんくっきんじょうわんとう
+FMA38616	ulnar head of flexor carpi ulnaris	尺側手根屈筋の尺骨頭	しゃくそくしゅこんくっきんしゃくこつとう
+FMA38469	flexor digitorum superficialis	浅指屈筋	せんしくっきん
+FMA38636	humero-ulnar head of flexor digitorum superficialis	浅指屈筋の上腕尺骨頭	せんしくっきんじょうわんしゃこつとう
+FMA38637	radial head of flexor digitorum superficialis	浅指屈筋の橈骨頭	せんしくっきんとうこつとう
+FMA38478	flexor digitorum profundus	深指屈筋	しんしくっきん
+FMA38481	flexor pollicis longus	長母指屈筋;手の長母指屈筋	ちょうぼしくっきん
+FMA38453	pronator quadratus	方形回内筋	ほうけいかいないきん
+FMA38485	brachioradialis	腕橈骨筋	わんとうこつきん
+FMA38494	extensor carpi radialis longus	長橈側手根伸筋	ちょうとうそくしゅこんしんきん
+FMA38497	extensor carpi radialis brevis	短橈側手根伸筋	たんとうそくしゅこんしんきん
+FMA38500	extensor digitorum	総指伸筋;指伸筋	そうししんきん
+FMA38503	extensor digiti minimi	小指伸筋	しょうししんきん
+FMA38506	extensor carpi ulnaris	尺側手根伸筋	しゃくそくしゅこんしんきん
+FMA77260	humeral head of extensor carpi ulnaris	尺側手根伸筋の上腕頭	しゃくそくしゅこんしんきんじょうわんとう
+FMA77261	ulnar head of extensor carpi ulnaris	尺側手根伸筋の尺骨頭	しゃくそくしゅこんしんきんしゃくこつとう
+FMA38512	supinator	回外筋	かいがいきん
+FMA38515	abductor pollicis longus	長母指外転筋	ちょうぼしがいてんきん
+FMA38518	extensor pollicis brevis	手の短母指伸筋	たんぼししんきん
+FMA38521	extensor pollicis longus	長母指伸筋	ちょうぼししんきん
+FMA38524	extensor indicis	示指伸筋	しじしんきん
+FMA37373	abductor pollicis brevis	短母指外転筋	たんぼしがいてんきん
+FMA37378	flexor pollicis brevis	手の短母指屈筋	たんぼしくっきん
+FMA46104	superficial head of flexor pollicis brevis	短母指屈筋の浅頭	たんぼしくっきんせんとう
+FMA46107	deep head of flexor pollicis brevis	短母指屈筋の深頭	たんぼしくっきんしんとう
+FMA37379	opponens pollicis	母指対立筋	ぼしたいりつきん
+FMA37380	adductor pollicis	手の母指内転筋	ぼしないてんきん
+FMA46119	oblique head of adductor pollicis	母指内転筋の斜頭	ぼしないてんきんしゃとう
+FMA46120	transverse head of adductor pollicis	母指内転筋の横頭	ぼしないてんきんおうとう
+FMA37382	abductor digiti minimi of hand	手の小指外転筋	しょうしがいてんきん
+FMA37383	flexor digiti minimi brevis of hand	手の短小指屈筋	たんしょうしくっきん
+FMA37384	opponens digiti minimi of hand	手の小指対立筋	しょうしたいりつきん
+FMA71318	set of lumbricals of hand	虫様筋［手の］	てのちゅうようきん
+FMA71319	set of dorsal interossei of hand	背側骨間筋［手の］	てのはいそくこっかんきん
+FMA71320	set of palmar interossei of hand	掌側骨間筋	しょうそくこつかんきん
+FMA39988	flexor retinaculum of wrist	屈筋支帯［手の］	てのくっきんしたい
+FMA45151	anterior compartment of thigh	大腿の前区画;大腿の伸筋区画	
+FMA45157	posterior compartment of thigh	大腿の後区画;大腿の屈筋区画	
+FMA45160	medial compartment of thigh	大腿の内側区画;大腿の内転筋区画	
+FMA45163	anterior compartment of leg	下腿の前区画;下腿の伸筋区画	
+FMA9622	muscle of lower limb	下肢の筋	かしのきん
+FMA64918	iliopsoas	腸腰筋	ちょうようきん
+FMA22310	iliacus	腸骨筋	ちょうこつきん
+FMA18060	psoas major	大腰筋	だいようきん
+FMA22314	gluteus maximus	大殿筋;大臀筋	だいでんきん
+FMA22315	gluteus medius	中殿筋;中臀筋	ちゅうでんきん
+FMA22317	gluteus minimus	小殿筋;小臀筋	しょうでんきん
+FMA22423	tensor fasciae latae	大腿筋膜張筋	だいたいきんまくちょうきん
+FMA19082	piriformis	梨状筋	りじょうきん
+FMA22298	obturator internus	内閉鎖筋	ないへいさきん
+FMA22318	gemellus superior	上双子筋	じょうそうしきん
+FMA22320	gemellus inferior	下双子筋	かそうしきん
+FMA22321	quadratus femoris	大腿方形筋	だいたいほうけいきん
+FMA22353	sartorius	縫工筋	ほうこうきん
+FMA22428	quadriceps femoris	大腿四頭筋	だいたいしとうきん
+FMA22430	rectus femoris	大腿直筋	だいたいちょくきん
+FMA22431	vastus lateralis	外側広筋	がいそくこうきん
+FMA22433	vastus intermedius	中間広筋	ちゅうかんこうきん
+FMA22432	vastus medialis	内側広筋	ないそくこうきん
+FMA22440	pectineus	恥骨筋	ちこつきん
+FMA22441	adductor longus	長内転筋	ちょうないてんきん
+FMA22442	adductor brevis	短内転筋	たんないてんきん
+FMA22443	adductor magnus	大内転筋	だいないてんきん
+FMA43885	adductor minimus	小内転筋	しょうないてんきん
+FMA43882	gracilis	薄筋	はくきん
+FMA22299	obturator externus	外閉鎖筋	がいへいさきん
+FMA22356	biceps femoris	大腿二頭筋	だいたいにとうきん
+FMA45887	long head of biceps femoris	大腿二頭筋の長頭	だいたいにとうきんちょうとう
+FMA45890	short head of biceps femoris	大腿二頭筋の短頭	だいたいにとうきんたんとう
+FMA22357	semitendinosus	半腱様筋	はんけんようきん
+FMA22438	semimembranosus	半膜様筋	はんまくようきん
+FMA22532	tibialis anterior	前脛骨筋	ぜんけいこつきん
+FMA22534	extensor digitorum longus	長趾伸筋;足の長指伸筋	ちょうししんきん
+FMA22538	fibularis tertius	第三腓骨筋	だいさんひこつきん
+FMA22533	extensor hallucis longus	長母趾伸筋;足の長母指伸筋	ちょうぼししんきん
+FMA22539	fibularis longus	長腓骨筋	ちょうひこつきん
+FMA22540	fibularis brevis	短腓骨筋	たんひこつきん
+FMA51062	triceps surae	下腿三頭筋	かたいさんとうきん
+FMA22541	gastrocnemius	腓腹筋	ひふくきん
+FMA45959	lateral head of gastrocnemius	腓腹筋の外側頭	ひふくきんがいそくとう
+FMA45956	medial head of gastrocnemius	腓腹筋の内側頭	ひふくきんないそくとう
+FMA22542	soleus	ヒラメ筋	ひらめきん
+FMA51061	calcaneal tendon	踵骨腱;アキレス腱	しょうこつけん
+FMA22543	plantaris	足底筋	そくていきん
+FMA22590	popliteus	膝窩筋	しつかきん
+FMA51099	tibialis posterior	後脛骨筋	こうけいこつきん
+FMA51071	flexor digitorum longus	長趾屈筋;足の長指屈筋	ちょうしくっきん
+FMA22593	flexor hallucis longus	長母趾屈筋;足の長母指屈筋	ちょうぼしくっきん
+FMA51141	extensor hallucis brevis	短母趾伸筋;足の短母指伸筋	たんぼししんきん
+FMA51140	extensor digitorum brevis	短趾伸筋;足の短指伸筋	たんししんきん
+FMA37448	abductor hallucis	母趾外転筋;足の母指外転筋	ぼしがいてんきん
+FMA37449	flexor hallucis brevis	短母趾屈筋;足の短母指屈筋	たんぼしくっきん
+FMA45969	medial head of flexor hallucis brevis	短母趾屈筋の内側頭	たんぼしくっきんないそくとう
+FMA45970	lateral head of flexor hallucis brevis	短母趾屈筋の外側頭	たんぼしくっきんがいそくとう
+FMA37454	adductor hallucis	母趾内転筋;足の母指内転筋	ぼしないてんきん
+FMA46014	oblique head of adductor hallucis	母趾内転筋の斜頭	ぼしないてんきんしゃとう
+FMA46015	transverse head of adductor hallucis	母趾内転筋の横頭	ぼしないてんきんおうとう
+FMA37451	abductor digiti minimi of foot	小趾外転筋;足の小指外転筋	しょうしがいてんきん
+FMA86033	opponens digiti minimi of foot	小趾対立筋;足の小指対立筋	しょうしたいりつきん
+FMA37455	flexor digiti minimi brevis of foot	短小趾屈筋;足の短小指屈筋	たんしょうしくっきん
+FMA37450	flexor digitorum brevis	短趾屈筋;足の短指屈筋	たんしょうくっきん
+FMA37452	flexor accessorius	足底方形筋;副趾屈筋	そくていほうけいきん
+FMA71321	set of lumbricals of foot	虫様筋［足の］;虫様筋［足の］	あしのちゅうようきん
+FMA71322	set of dorsal interossei of foot	背側骨間筋;背側骨間筋［足の］	あしのはいそくこっかんきん
+FMA71323	set of plantar interossei of foot	底側骨間筋	ていそくこつかんきん
+FMA13902	fascia lata	大腿筋膜	だいたいきんまく
+FMA51048	iliotibial tract	腸脛靱帯	ちょうけいじんたい
+FMA7152	alimentary system	消化器系	しょうかきけい
+FMA59660	mucosa of mouth	口腔粘膜	こうくうねんまく
+FMA59815	labial part of mouth	口唇;クチビル	くちびる
+FMA55634	maxillary dental arcade	上歯列弓;上顎歯列弓	じょうしれつきゅう；じょうがくしれつきゅう
+FMA55635	mandibular dental arcade	下歯列弓;下顎歯列弓	かしれつきゅう；かがくしれつきゅう
+FMA12823	incisor tooth	切歯	せっし
+FMA55636	canine tooth	犬歯/歯冠尖頭;尖頭	けんし/しかんせんとう：せんとう
+FMA55637	premolar tooth	小臼歯	しょうきゅうし
+FMA55638	molar tooth	大臼歯	だいきゅうし
+FMA55623	crown of tooth	歯冠	しかん
+FMA7131	esophagus	食道	しょくどう
+FMA7148	stomach	胃	い
+FMA7200	small intestine	小腸	しょうちょう
+FMA7206	duodenum	十二指腸	じゅうにしちょう
+FMA7207	jejunum	空腸	くうちょう
+FMA7208	ileum	回腸	かいちょう
+FMA7201	large intestine	大腸	だいちょう
+FMA14542	appendix	虫垂	ちゅうすい
+FMA14543	colon	結腸	けっちょう
+FMA14986	muscle layer of colon	結腸の筋層	けっちょうのきんそう
+FMA14987	longitudinal muscle layer of colon	結腸の縦筋層	けっちょうのじゅうきんそう
+FMA76891	mesocolic taenia	間膜ヒモ	かんまくひも
+FMA76892	omental taenia	大網ヒモ	たいもうひも
+FMA76893	free taenia	自由ヒモ	じゆうひも
+FMA14544	rectum	直腸	ちょくちょう
+FMA7197	liver	肝臓	かんぞう
+FMA7202	gallbladder	胆嚢;タンノウ	たんのう
+FMA7198	pancreas	膵臓	すいぞう
+FMA10419	pancreatic duct	膵管;主膵管	すいかん
+FMA7158	respiratory system	呼吸器系	こきゅうきけい
+FMA59516	root of nose	鼻根	びこん
+FMA71704	set of nasal cartilages	鼻軟骨	びなんこつ
+FMA54375	nasal septum	鼻中隔	びちゅうかく
+FMA59837	bony part of nasal septum	鼻中隔の骨部	びちゅうかつのこつぶ
+FMA55099	thyroid cartilage	甲状軟骨	こうじょうなんこつ
+FMA7394	trachea	気管	きかん
+FMA7195	lung	肺	はい
+FMA7309	right lung	右肺	うはい
+FMA7310	left lung	左肺	さはい
+FMA7334	upper lobe of lung	肺の上葉	はいのじょうよう
+FMA7383	middle lobe of lung	中葉［右肺の］/右肺、中葉	うはいちゅうよう
+FMA7335	lower lobe of lung	肺の下葉	はいのかよう
+FMA7333	upper lobe of right lung	右肺、上葉	うはい、じょうよう
+FMA7337	lower lobe of right lung	右肺、下葉	うはいかよう
+FMA7370	upper lobe of left lung	左肺、上葉	さはいじょうよう
+FMA7371	lower lobe of left lung	左肺、下葉	さはい、かよう
+FMA9826	mediastinum	縦隔	じゅうかく
+FMA9827	superior mediastinum	縦隔の上部;上縦隔	じゅうかくのじょうぶ；じょうじゅうかく
+FMA9828	inferior mediastinum	縦隔の下部;下縦隔	じゅうかくのかぶ；かじゅうかく
+FMA9838	anterior mediastinum	縦隔の前部;前縦隔	じゅうかくのぜんぶ；ぜんじゅうかく
+FMA9839	middle mediastinum	縦隔の中部;中縦隔	じゅうかくのちゅうぶ；ちゅうじゅうかく
+FMA7159	urinary system	泌尿器系	ひにょうきけい
+FMA7203	kidney	腎臓;ネフロン	じんぞう
+FMA9704	ureter	尿管	にょうかん
+FMA15900	urinary bladder	膀胱	ぼうこう
+FMA7160	genital system	生殖器系	せいしょくきけい
+FMA45664	male genital system	男性生殖器;男性の生殖系;男性生殖器系	だんせいせいしょくき；だんせいのせいしょくけい；だんせいせいしょくけい
+FMA45655	male internal genitalia	男性の内生殖器	だんせいのないせいしょくき
+FMA7210	testis	精巣;睾丸	せいそう
+FMA18255	epididymis	精巣上体;副睾丸	ふくこうがん
+FMA19234	deferent duct	精管	せいかん
+FMA19386	seminal vesicle	精嚢;精嚢腺	せいのう
+FMA9600	prostate	前立腺	ぜんりつせん
+FMA45642	male external genitalia	男の外生殖器	おとこのがいせいしょくき
+FMA9707	penis	陰茎	いんけい
+FMA18249	body of penis	陰茎体	いんけいたい
+FMA18247	glans penis	陰茎亀頭	きとう
+FMA19618	corpus cavernosum of penis	陰茎海綿体	いんけいかいめんたい
+FMA19617	corpus spongiosum of penis	尿道海綿体	にょうどうかいめんたい
+FMA18252	scrotum	陰嚢	いんのう
+FMA77304	muscle of anal triangle	肛門三角筋;肛門部の筋	こうもんさんかくきん；こうもんぶのきん
+FMA9668	endocrine system	内分泌腺	ないぶんぴつせん
+FMA13889	pituitary gland	下垂体	かすいたい
+FMA62033	pineal body	松果体;松果腺	しょうかたい
+FMA9604	adrenal gland	副腎;腎上体	ふくじん
+FMA7161	cardiovascular system	心脈管系；心臓血管系；心血管系	しんみゃっかんけい；じんぞうけっかんけい；しんけっかんけい
+FMA50720	artery	動脈	どうみゃく
+FMA67611	anatomical valve	弁	べん
+FMA50723	vein	静脈	じょうみゃく
+FMA7088	heart	心臓	しんぞう
+FMA223286	basal zone of heart	心底	しんてい
+FMA7098	right ventricle	右心室/心室;右心室・左心室	うしんしつ
+FMA7101	left ventricle	左心室/心室;右心室・左心室	さしんしつ
+FMA7133	interventricular septum	心室中隔	しんしつちゅうかく
+FMA7134	muscular part of interventricular septum	心室中隔の筋性部	しんしつちゅうかくのきんせいぶ
+FMA7096	right atrium	右心房/心房;右心房・左心房	うしんぼう
+FMA7097	left atrium	左心房/心房;右心房・左心房	さしんぼう
+FMA7234	tricuspid valve	右房室弁;三尖弁	さんせんべん
+FMA7216	outflow part of right ventricle	動脈円錐;右心室の漏斗	どうみゃくえんすい
+FMA7246	pulmonary valve	肺動脈弁	はいどうみゃくべん
+FMA7260	anterior papillary muscle of right ventricle	右心室の前乳頭筋	うしんしつのぜんにゅうとうきん
+FMA7261	posterior papillary muscle of right ventricle	右心室の後乳頭筋	うしんしつのこうにゅうとうきん
+FMA7262	septal papillary muscle of right ventricle	右心室の中隔乳頭筋	うしんしつのちゅうかくにゅうとうきん
+FMA7235	mitral valve	左房室弁;僧帽弁;二尖弁	そうぼうべん
+FMA7266	posterior papillary muscle of left ventricle	左心室の後乳頭筋	さしんしつのこうにゅうとうきん
+FMA9462	myocardium	心筋層	しんきんそう
+FMA63812	set of arteries	動脈	どうみゃく
+FMA3734	aorta	大動脈	だいどうみゃく
+FMA3736	ascending aorta	上行大動脈;大動脈上行部	じょうこうだいどうみゃく
+FMA50039	right coronary artery	右冠状動脈	みぎかんじょうどうみゃく
+FMA3818	marginal branch of right coronary artery	右縁枝;鋭角縁枝;右冠状動脈の鋭縁枝	うえんし
+FMA3840	posterior interventricular branch of right coronary artery	後室間枝;右冠状動脈の後下行枝	こうかこうし
+FMA71669	set of interventricular septal branches of right coronary artery	心室中隔枝;右冠状動脈の中隔室間枝	うかんじょうどうみゃくしんしつちゅうかくし
+FMA76994	right posterolateral branch of right coronary artery	右後外側枝;右冠状動脈の右後側壁枝	うかんじょうどうみゃくうこうがいそくし
+FMA50040	left coronary artery	左冠状動脈	ひだりかんじょうどうみゃく
+FMA3862	anterior interventricular branch of left coronary artery	前室間枝;左冠状動脈の前下行枝	ぜんかこうし
+FMA71670	set of interventricular septal branches of left coronary artery	中隔室間枝;心室中隔枝;左冠状動脈の前中隔枝	さかんじょうどうみゃくしんしつちゅうかくし
+FMA3895	circumflex branch of left coronary artery	左冠状動脈の回旋枝	ひだりかんじょうどうみゃくかいせんし
+FMA3768	arch of aorta	大動脈弓	だいどうみゃくきゅう
+FMA3932	brachiocephalic artery	腕頭動脈	わんとうどうみゃく
+FMA3939	common carotid artery	総頚動脈	そうけいどうみゃく
+FMA3951	subclavian artery	鎖骨下動脈	さこつかどうみゃく
+FMA3784	descending aorta	下行大動脈;大動脈下行部	かこうだいどうみゃく
+FMA3786	thoracic aorta	胸大動脈;大動脈胸部	きょうだいどうみゃく；だいどうみゃくきょうぶ
+FMA14768	left gastric artery	左胃動脈	さいどうみゃく
+FMA14771	common hepatic artery	総肝動脈	そうかんどうみゃく
+FMA14773	splenic artery	脾動脈	ひどうみゃく
+FMA14749	superior mesenteric artery	上腸間膜動脈	じょうちょうかんまくどうみゃく
+FMA14750	inferior mesenteric artery	下腸間膜動脈	かちょうかんまくどうみゃく
+FMA14751	renal artery	腎動脈	じんどうみゃく
+FMA14764	common iliac artery	総腸骨動脈	そうちょうこつどうみゃく
+FMA18808	internal iliac artery	内腸骨動脈	ないちょうこつどうみゃく
+FMA18805	external iliac artery	外腸骨動脈	がいちょうこつどうみゃく
+FMA63814	set of veins	静脈	じょうみゃく
+FMA4706	coronary sinus	冠状静脈洞	かんじょうじょうみゃくどう
+FMA4707	great cardiac vein	大心臓静脈;大心静脈	だいしんぞうじょうみゃく
+FMA76751	set of posterior veins of left ventricle	左心室後静脈;後左心室静脈	さしんしつこうじょうみゃく
+FMA4713	middle cardiac vein	中心臓静脈;中心静脈;後室間静脈	ちゅうしんぞうじょうみゃく
+FMA4714	small cardiac vein	小心臓静脈;小心静脈	しょうしんぞうじょうみゃく
+FMA71567	set of anterior cardiac veins	前心臓静脈;前心静脈;前右心室静脈	ぜんしんぞうじょうみゃく
+FMA4720	superior vena cava	上大静脈	じょうだいじょうみゃく
+FMA4723	brachiocephalic vein	腕頭静脈;右腕頭静脈・左腕頭静脈	わんとうじょうみゃく
+FMA4724	internal jugular vein	内頚静脈	ないけいじょうみゃく
+FMA4725	subclavian vein	鎖骨下静脈	さこつかじょうみゃく
+FMA10951	inferior vena cava	下大静脈	かだいじょうみゃく
+FMA14333	common iliac vein	総腸骨静脈	そうちょうこつじょうみゃく
+FMA18884	internal iliac vein	内腸骨静脈	ないちょうこつじょうみゃく
+FMA18883	external iliac vein	外腸骨静脈	がいちょうこつじょうみゃく
+FMA14332	superior mesenteric vein	上腸間膜静脈	じょうちょうかんまくじょうみゃく
+FMA14331	splenic vein	脾静脈	ひじょうみゃく
+FMA9607	thymus	胸腺	きょうせん
+FMA71193	lobe of thymus	胸腺の葉	きょうせんのよう
+FMA7196	spleen	脾臓	ひぞう
+FMA74594	lymphoid system	リンパ系/一次性リンパ性器官	りんぱけい
+FMA7157	nervous system	神経系	しんけいけい
+FMA55675	neuraxis	中枢神経系;神経系中枢部	ちゅうすうしんけい
+FMA67242	gray matter of neuraxis	灰白質	かいはくしつ
+FMA83929	white matter of neuraxis	白質	はくしつ
+FMA83716	subarachnoid space	クモ膜下腔	
+FMA7647	spinal cord	脊髄	せきずい
+FMA78497	central canal of spinal cord	脊髄の中心管	せきずいのちゅうしんかん
+FMA50801	brain	脳	のう
+FMA67687	hindbrain	菱脳	りょうのう
+FMA62004	medulla oblongata	髄脳;延髄;球	えんずい
+FMA62003	metencephalon	後脳;橋と小脳	こうのう；きょうとこうのう
+FMA61993	midbrain	中脳	ちゅうのう
+FMA61992	forebrain	前脳	ぜんのう
+FMA62001	diencephalon	間脳	かんのう
+FMA62000	telencephalon	終脳/終脳;大脳	しゅうのう
+FMA67943	pons	橋	きょう
+FMA78469	fourth ventricle	第四脳室	だいよんのうしつ
+FMA78439	roof of fourth ventricle	第四脳室蓋	だいよんのうしつがい
+FMA61934	choroid plexus of cerebral hemisphere	第四脳室の脈絡叢	だいよんのうしつのみゃくらくそう
+FMA83740	interpeduncular fossa	脚間窩	きゃっかんか
+FMA62394	peduncle of midbrain	大脳脚［広義の］	だいのうきゃく（こうぎの）
+FMA71114	brachium of inferior colliculus	下丘腕	かきゅうわん
+FMA72417	brachium of superior colliculus	上丘腕	じょうきゅうわん
+FMA62404	inferior colliculus	下丘	かきゅう
+FMA62403	superior colliculus	上丘	じょうきゅう
+FMA78467	cerebral aqueduct	中脳水道;脳水道	ちゅうのうすいどう
+FMA67944	cerebellum	小脳	しょうのう
+FMA62009	epithalamus	視床上部	ししょうじょうぶ
+FMA62032	habenula	手綱	たずな
+FMA62007	thalamus	視床/視床;背側視床	ししょう
+FMA62080	stria medullaris of thalamus	視床髄条	ししょうずいじょう
+FMA62023	metathalamus	視床後部	ししょうこうぶ
+FMA62209	lateral geniculate body	外側膝状体	がいそくしつじょうたい
+FMA62211	medial geniculate body	内側膝状体/内側膝状体核	ないそくしつじょうたい/ないそくしつじょうたいかく
+FMA62008	hypothalamus	視床下部	ししょうかぶ
+FMA74877	mammillary body	乳頭体	にゅうとうたい
+FMA62045	optic chiasm	視神経交叉;視交叉	ししんけいこうさ；しこうさ
+FMA62046	optic tract	視索	しさく
+FMA62327	tuber cinereum	灰白隆起	はいはくりゅうき
+FMA78454	third ventricle	第三脳室	だいさんのうしつ
+FMA75351	interventricular foramen	室間孔	しつかんこう
+FMA62072	posterior commissure	後交連	こうこうれん
+FMA61975	lamina terminalis	終板	しゅうばん
+FMA61961	anterior commissure	前交連	ぜんんこうれん
+FMA62028	intermediate hypothalamic region	視床下部中間野;視床下部中間域;中間視床下部野	ししょうかぶちゅうかんや；ししょうかぶちゅうかんいき；ちゅうかんししょうかぶや
+FMA61974	stria terminalis	分界条線維/分界条	ぶんかいじょうせんい/ぶんかいじょう
+FMA61965	fornix of forebrain	脳弓	のうきゅう
+FMA61817	cerebral hemisphere	大脳半球	だいのうはんきゅう
+FMA61830	cerebral cortex	大脳皮質;外套/大脳皮質	だいのうひしつ
+FMA61859	middle frontal gyrus	内側前頭回/中前頭回	ないそくぜんとうかい/ちゅうぜんとうかい
+FMA61894	precentral gyrus	中心前回	ちゅうしんぜんかい
+FMA61857	superior frontal gyrus	上前頭回	じょうぜんとうかい
+FMA61898	angular gyrus	角回	かくかい
+FMA61896	postcentral gyrus	中心後回	ちゅうしんこうかい
+FMA61897	supramarginal gyrus	縁上回	えんじょうかい
+FMA61825	temporal lobe	側頭葉	そくとうよう
+FMA61905	superior temporal gyrus	上側頭回	じょうそくとうかい
+FMA61906	middle temporal gyrus	中側頭回	ちゅうそくとうかい
+FMA61907	inferior temporal gyrus	下側頭回	かそくとうかい
+FMA67329	insula	島;島葉	とう
+FMA61908	fusiform gyrus	側頭葉の外側後頭側頭回	そくとうようのがいそくこうとうそくとうかい
+FMA72719	limbic lobe	辺縁葉	へんえんよう
+FMA62434	cingulate gyrus	帯状回	たいじょうかい
+FMA61918	parahippocampal gyrus	海馬傍回	かいばぼうかい
+FMA86464	corpus callosum	脳梁	のうりょう
+FMA61970	commissure of fornix of forebrain	脳弓交連;海馬交連/海馬交連	のうきゅうこうれん；かいばこうれん
+FMA61844	septum pellucidum	透明中隔	とうめいちゅうかく
+FMA78448	lateral ventricle	側脳室	そくのうしつ
+FMA62424	archicortex	原皮質	げんひしつ
+FMA62429	neocortex	新皮質/等皮質;同皮質	しんひしつ/とうひしつ；どうひしつ
+FMA83687	allocortex	不等皮質;異皮質	ふとうひしつ；いひしつ
+FMA62493	hippocampus	アンモン角;固有海馬/海馬	かいば
+FMA61841	amygdala	扁桃体;扁桃体複合	へんとうたい
+FMA61842	septum of telencephalon	中隔部;中隔野	ちゅうかくぶ；ちゅうかくや
+FMA61833	caudate nucleus	尾状核	びじょうかく
+FMA61834	putamen	被殻	ひかく
+FMA61835	globus pallidus	淡蒼球;古線条体;旧線条体	たんそうきゅう
+FMA61950	internal capsule	内包	ないほう
+FMA61952	anterior limb of internal capsule	内包の前脚;内包前脚	ないほうのぜんきゃく；ないほうぜんきゃく
+FMA50863	optic nerve	視神経/視神経［脳神経II］	ししんけい
+FMA78499	sense organ system	感覚器	かんかくき
+FMA12513	eyeball	眼球	がんきゅう
+FMA54439	upper eyelid	上眼瞼;ウワマブタ	じょうがんけん
+FMA54442	lower eyelid	下眼瞼;シタマブタ	かがんけん
+FMA72979	integumentary system	外皮系	がいひけい
+FMA74657	integument	外皮	がいひけい
+FMA7163	skin	皮膚	ひふ
+FMA70752	set of hairs	毛	け
+FMA70751	set of head hairs	頭毛;カミノケ	かみのけ
+FMA71098	set of eyebrows	眉毛;マユゲ	まゆげ
+FMA70754	set of pubic hairs	陰毛;カクシゲ	かくしげ
+BP24	left costal cartilage	左肋軟骨	ひだりろくなんこつ
+BP28	right costal cartilage	右肋軟骨	みぎろくなんこつ
+BP44	humeral head of left extensor carpi ulnaris	左尺側手根伸筋上腕頭	ひだりしゃくそくしゅこんしんきんじょうわんとう
+BP45	humeral head of right extensor carpi ulnaris	右尺側手根伸筋上腕頭	みぎしゃくそくしゅこんしんきんじょうわんとう
+BP46	ulnar head of left extensor carpi ulnaris	左尺側手根伸筋尺骨頭	ひだりしゃくそくしゅこんしんきんしゃくこつとう
+BP47	ulnar head of right extensor carpi ulnaris	右尺側手根伸筋尺骨頭	みぎしゃくそくしゅこんしんきんしゃくこつとう
+BP48	superior parietal lobule precuneus	上頭頂小葉楔前部	じょうとうちょうようけつぜんぶ
+BP49	left superior parietal lobule precuneus	左上頭頂小葉と楔前部	ひだりじょうとうちょうようとけつぜんぶ
+BP50	right superior parietal lobule precuneus	右上頭頂小葉と楔前部	みぎじょうとうちょうようとけつぜんぶ
+BP51	orbital gyri straight gyrus	眼窩回と直回	がんかかいとちょっかい
+FMA10014	ninth thoracic vertebra	第九胸椎	だいきゅうきょうつい
+FMA10037	tenth thoracic vertebra	第十胸椎	だいじゅうきょうつい
+FMA10059	eleventh thoracic vertebra	第十一胸椎	だいじゅういちきょうつい
+FMA10081	twelfth thoracic vertebra	第十二胸椎	だいじゅうにきょうつい
+FMA10458	intervertebral disk of first thoracic vertebra	第一胸椎椎間円板	だいいちきょうついついかんえんばん
+FMA12521	third cervical vertebra	第三頚椎	だいさんけいつい
+FMA12522	fourth cervical vertebra	第四頚椎	だいよんけいつい
+FMA12523	fifth cervical vertebra	第五頚椎	だいごけいつい
+FMA12524	sixth cervical vertebra	第六頚椎	だいろくけいつい
+FMA12846	cardiac vein	心静脈	しんじょうみゃく
+FMA13072	first lumbar vertebra	第一腰椎	だいいちようつい
+FMA13073	second lumbar vertebra	第二腰椎	だいにようつい
+FMA13074	third lumbar vertebra	第三腰椎	だいさんようつい
+FMA13075	fourth lumbar vertebra	第四腰椎	だいよんようつい
+FMA13076	fifth lumbar vertebra	第五腰椎	だいごようつい
+FMA13322	right clavicle	右鎖骨	みぎさこつ
+FMA13323	left clavicle	左鎖骨	ひだりさこつ
+FMA13336	right external oblique	右外腹斜筋	みぎがいふくしゃきん
+FMA13337	left external oblique	左外腹斜筋	ひだりがいふくしゃきん
+FMA13346	right sternohyoid	右胸骨舌骨筋	みぎきょうこつぜつこつきん
+FMA13347	left sternohyoid	左胸骨舌骨筋	ひだりきょうこつぜつこつきん
+FMA13348	right omohyoid	右肩甲舌骨筋	みぎけんこうぜつこつきん
+FMA13349	left omohyoid	左肩甲舌骨筋	ひだりけんこうぜつこつきん
+FMA13350	right sternothyroid	右胸骨甲状筋	みぎきょうこつこうじょうきん
+FMA13351	left sternothyroid	左胸骨甲状筋	ひだりきょうこつこうじょうきん
+FMA13352	right thyrohyoid	右甲状舌骨筋	みぎこうじょうぜつこつきん
+FMA13353	left thyrohyoid	左甲状舌骨筋	ひだりこうじょうぜつこつきん
+FMA13358	right latissimus dorsi	右広背筋	みぎこうはいきん
+FMA13359	left latissimus dorsi	左広背筋	ひだりこうはいきん
+FMA13375	right pectoralis minor	右小胸筋	みぎしょうきょうきん
+FMA13376	left pectoralis minor	左小胸筋	ひだりしょうきょうきん
+FMA13377	right rectus abdominis	右腹直筋	みぎふくちょくきん
+FMA13378	left rectus abdominis	左腹直筋	ひだりふくちょくきん
+FMA13381	right rhomboid major	右大菱形筋	みぎだいりょうけいきん
+FMA13382	left rhomboid major	左大菱形筋	ひだりだいりょうけいきん
+FMA13383	right rhomboid minor	右小菱形筋	みぎしょうりょうけいきん
+FMA13384	left rhomboid minor	左小菱形筋	ひだりしょうりょうけいきん
+FMA13388	right scalenus posterior	右後斜角筋	みぎこうしゃかくきん
+FMA13389	left scalenus posterior	左後斜角筋	ひだりこうしゃかくきん
+FMA13390	right scalenus medius	右中斜角筋	みぎちゅうしゃかくきん
+FMA13391	left scalenus medius	左中斜角筋	ひだりちゅうしゃかくきん
+FMA13392	right scalenus anterior	右前斜角筋	みぎぜんしゃかくきん
+FMA13393	left scalenus anterior	左前斜角筋	ひだりぜんしゃかくきん
+FMA13395	right scapula	右肩甲骨	みぎけんこうこつ
+FMA13396	left scapula	左肩甲骨	ひだりけんこうこつ
+FMA13398	right serratus anterior	右前鋸筋	みぎぜんきょきん
+FMA13399	left serratus anterior	左前鋸筋	ひだりぜんきょきん
+FMA13403	right serratus posterior superior	右上後鋸筋	みぎじょうこうきょきん
+FMA13404	left serratus posterior superior	左上後鋸筋	ひだりじょうこうきょきん
+FMA13405	right serratus posterior inferior	右下後鋸筋	みぎかこうきょきん
+FMA13406	left serratus posterior inferior	左下後鋸筋	ひだりかこうきょきん
+FMA13408	right sternocleidomastoid	右胸鎖乳突筋	みぎきょうさにゅうとつきん
+FMA13409	left sternocleidomastoid	左胸鎖乳突筋	ひだりきょうさにゅうとつきん
+FMA13411	left subclavius	左鎖骨下筋	ひだりさこつかきん
+FMA13412	right subclavius	右鎖骨下筋	みぎさこつかきん
+FMA13414	right subscapularis	右肩甲下筋	みぎけんこうかきん
+FMA13415	left subscapularis	左肩甲下筋	ひだりけんこうかきん
+FMA13495	intervertebral disk of second thoracic vertebra	第二胸椎椎間円板	だいにきょうついついかんえんばん
+FMA13500	intervertebral disk of third thoracic vertebra	第三胸椎椎間円板	だいさんきょうついついかんえんばん
+FMA13501	intervertebral disk of fourth thoracic vertebra	第四胸椎椎間円板	だいよんきょうついついかんえんばん
+FMA13502	intervertebral disk of fifth thoracic vertebra	第五胸椎椎間円板	だいごきょうついついかんえんばん
+FMA13503	intervertebral disk of sixth thoracic vertebra	第六胸椎椎間円板	だいろくきょうついついかんえんばん
+FMA13504	intervertebral disk of seventh thoracic vertebra	第七胸椎椎間円板	だいななきょうついついかんえんばん
+FMA13505	intervertebral disk of eighth thoracic vertebra	第八胸椎椎間円板	だいはちきょうついついかんえんばん
+FMA13506	intervertebral disk of ninth thoracic vertebra	第九胸椎椎間円板	だいきゅうきょうついついかんえんばん
+FMA13507	intervertebral disk of tenth thoracic vertebra	第十胸椎椎間円板	だいじゅうきょうついついかんえんばん
+FMA13508	intervertebral disk of eleventh thoracic vertebra	第十一胸椎椎間円板	だいじゅういちきょうついついかんえんばん
+FMA13509	intervertebral disk of twelfth thoracic vertebra	第十二胸椎椎間円板	だいじゅうにきょうついついかんえんばん
+FMA13892	right internal oblique	右内腹斜筋	みぎないふくしゃきん
+FMA13893	left internal oblique	左内腹斜筋	ひだりないふくしゃきん
+FMA13896	intervertebral disk of third cervical vertebra	第三頚椎椎間円板	だいさんけいついついかんえんばん
+FMA13897	intervertebral disk of fourth cervical vertebra	第四頚椎椎間円板	だいよんけいついついかんえんばん
+FMA13898	intervertebral disk of fifth cervical vertebra	第五頚椎椎間円板	だいごけいついついかんえんばん
+FMA13899	intervertebral disk of sixth cervical vertebra	第六頚椎椎間円板	だいろくけいついついかんえんばん
+FMA13900	intervertebral disk of seventh cervical vertebra	第七頚椎椎間円板	だいななけいついついかんえんばん
+FMA14335	right renal vein	右腎静脈	みぎじんじょうみゃく
+FMA14336	left renal vein	左腎静脈	ひだりじんじょうみゃく
+FMA14543nsn	colon, nsn	結腸nsn	けっちょうnsn
+FMA14752	right renal artery	右腎動脈	みぎじんどうみゃく
+FMA14753	left renal artery	左腎動脈	ひだりじんどうみゃく
+FMA14765	right common iliac artery	右総腸骨動脈	みぎそうちょうこつどうみゃく
+FMA14766	left common iliac artery	左総腸骨動脈	ひだりそうちょうこつどうみゃく
+FMA15571	right ureter	右尿管	みぎにょうかん
+FMA15572	left ureter	左尿管	ひだりにょうかん
+FMA15629	right adrenal gland	右副腎	みぎふくじん
+FMA15630	left adrenal gland	左副腎	ひだりふくじん
+FMA16033	intervertebral disk of first lumbar vertebra	第一腰椎椎間円板	だいいちようついついかんえんばん
+FMA16034	intervertebral disk of second lumbar vertebra	第二腰椎椎間円板	だいにようついついかんえんばん
+FMA16035	intervertebral disk of third lumbar vertebra	第三腰椎椎間円板	だいさんようついついかんえんばん
+FMA16036	intervertebral disk of fourth lumbar vertebra	第四腰椎椎間円板	だいよんようついついかんえんばん
+FMA16037	intervertebral disk of fifth lumbar vertebra	第五腰椎椎間円板	だいごようついついかんえんばん
+FMA16586	right hip bone	右寛骨	みぎかんこつ
+FMA16587	left hip bone	左寛骨	ひだりかんこつ
+FMA18256	right epididymis	右副睾丸	みぎふくこうがん
+FMA18257	left epididymis	左副睾丸	ひだりふくこうがん
+FMA18806	right external iliac artery	右外腸骨動脈	みぎがいちょうこつどうみゃく
+FMA18807	left external iliac artery	左外腸骨動脈	ひだりがいちょうこつどうみゃく
+FMA18809	right internal iliac artery	右内腸骨動脈	みぎないちょうこつどうみゃく
+FMA18810	left internal iliac artery	左内腸骨動脈	ひだりないちょうこつどうみゃく
+FMA18885	right external iliac vein	右外腸骨静脈	みぎがいちょうこつじょうみゃく
+FMA18886	left external iliac vein	左外腸骨静脈	ひだりがいちょうこつじょうみゃく
+FMA18887	right internal iliac vein	右内腸骨静脈	みぎないちょうこつじょうみゃく
+FMA18888	left internal iliac vein	左内腸骨静脈	ひだりないちょうこつじょうみゃく
+FMA19235	right deferent duct	右精管	みぎせいかん
+FMA19236	left deferent duct	左精管	ひだりせいかん
+FMA19387	right seminal vesicle	右精嚢	みぎせいのう
+FMA19388	left seminal vesicle	左精嚢	ひだりせいのう
+FMA19617nsn	corpus spongiosum of penis, nsn	尿道海綿体nsn	にょうどうかいめんたいnsn
+FMA19667	urethra	尿道	にょうどう
+FMA21387	right common iliac vein	右総腸骨静脈	みぎそうちょうこつじょうみゃく
+FMA21388	left common iliac vein	左総腸骨静脈	ひだりそうちょうこつじょうみゃく
+FMA21964	right inguinal ligament	右鼡径靱帯	みぎそけいじんたい
+FMA21965	left inguinal ligament	左鼡径靱帯	ひだりそけいじんたい
+FMA22322	right iliacus	右腸骨筋	みぎちょうこつきん
+FMA22323	left iliacus	左腸骨筋	ひだりちょうこつきん
+FMA22324	right obturator internus	右内閉鎖筋	みぎないへいさきん
+FMA22325	left obturator internus	左内閉鎖筋	ひだりないへいさきん
+FMA22326	right obturator externus	右外閉鎖筋	みぎがいへいさきん
+FMA22327	left obturator externus	左外閉鎖筋	ひだりがいへいさきん
+FMA22328	right gluteus maximus	右大殿筋	みぎだいでんきん
+FMA22329	left gluteus maximus	左大殿筋	ひだりだいでんきん
+FMA22330	right gluteus medius	右中殿筋	みぎちゅうでんきん
+FMA22331	left gluteus medius	左中殿筋	ひだりちゅうでんきん
+FMA22332	right gluteus minimus	右小殿筋	みぎしょうでんきん
+FMA22333	left gluteus minimus	左小殿筋	ひだりしょうでんきん
+FMA22334	right gemellus superior	右上双子筋	みぎじょうそうしきん
+FMA22335	left gemellus superior	左上双子筋	ひだりじょうそうしきん
+FMA22336	right gemellus inferior	右下双子筋	みぎかそうしきん
+FMA22337	left gemellus inferior	左下双子筋	ひだりかそうしきん
+FMA22338	right quadratus femoris	右大腿方形筋	みぎだいたいほうけいきん
+FMA22339	left quadratus femoris	左大腿方形筋	ひだりだいたいほうけいきん
+FMA22340	right piriformis	右梨状筋	みぎりじょうきん
+FMA22341	left piriformis	左梨状筋	ひだりりじょうきん
+FMA22342	right psoas major	右大腰筋	みぎだいようきん
+FMA22343	left psoas major	左大腰筋	ひだりだいようきん
+FMA22344	right transversus abdominis	右腹横筋	みぎふくおうきん
+FMA22345	left transversus abdominis	左腹横筋	ひだりふくおうきん
+FMA22346	right pyramidalis	右錐体筋	みぎすいたいきん
+FMA22347	left pyramidalis	左錐体筋	ひだりすいたいきん
+FMA22348	right quadratus lumborum	右腰方形筋	みぎようほうけいきん
+FMA22349	left quadratus lumborum	左腰方形筋	ひだりようほうけいきん
+FMA22354	right sartorius	右縫工筋	みぎほうこうきん
+FMA22355	left sartorius	左縫工筋	ひだりほうこうきん
+FMA22358	right semitendinosus	右半腱様筋	みぎはんけんようきん
+FMA22359	left semitendinosus	左半腱様筋	ひだりはんけんようきん
+FMA22425	right tensor fasciae latae	右大腿筋膜張筋	みぎだいたいきんまくちょうきん
+FMA22426	left tensor fasciae latae	左大腿筋膜張筋	ひだりだいたいきんまくちょうきん
+FMA22448	right semimembranosus	右半膜様筋	みぎはんまくようきん
+FMA22449	left semimembranosus	左半膜様筋	ひだりはんまくようきん
+FMA22450	right pectineus	右恥骨筋	みぎちこつきん
+FMA22451	left pectineus	左恥骨筋	ひだりちこつきん
+FMA22452	right adductor brevis	右短内転筋	みぎたんないてんきん
+FMA22454	left adductor brevis	左短内転筋	ひだりたんないてんきん
+FMA22456	right adductor longus	右長内転筋	みぎちょうないてんきん
+FMA22457	left adductor longus	左長内転筋	ひだりちょうないてんきん
+FMA22459	right adductor magnus	右大内転筋	みぎだいないてんきん
+FMA22460	left adductor magnus	左大内転筋	ひだりだいないてんきん
+FMA22544	right tibialis anterior	右前脛骨筋	みぎぜんけいこつきん
+FMA22545	left tibialis anterior	左前脛骨筋	ひだりぜんけいこつきん
+FMA22546	right extensor hallucis longus	右長母趾伸筋	みぎちょうぼししんきん
+FMA22547	left extensor hallucis longus	左長母趾伸筋	ひだりちょうぼししんきん
+FMA22548	right extensor digitorum longus	右長趾伸筋	みぎちょうししんきん
+FMA22549	left extensor digitorum longus	左長趾伸筋	ひだりちょうししんきん
+FMA22550	right fibularis tertius	右第三腓骨筋	みぎだいさんひこつきん
+FMA22551	left fibularis tertius	左第三腓骨筋	ひだりだいさんひこつきん
+FMA22552	right fibularis longus	右長腓骨筋	みぎちょうひこつきん
+FMA22553	left fibularis longus	左長腓骨筋	ひだりちょうひこつきん
+FMA22554	right fibularis brevis	右短腓骨筋	みぎたんひこつきん
+FMA22555	left fibularis brevis	左短腓骨筋	ひだりたんひこつきん
+FMA22558	right soleus	右ヒラメ筋	みぎひらめきん
+FMA22559	left soleus	左ヒラメ筋	ひだりひらめきん
+FMA22560	right plantaris	右足底筋	みぎそくていきん
+FMA22561	left plantaris	左足底筋	ひだりそくていきん
+FMA22591	right popliteus	右膝窩筋	みぎしつかきん
+FMA22592	left popliteus	左膝窩筋	ひだりしつかきん
+FMA22726	right splenius cervicis	右頚板状筋	みぎけいばんじょうきん
+FMA22727	left splenius cervicis	左頚板状筋	ひだりけいばんじょうきん
+FMA22728	right splenius capitis	右頭板状筋	みぎとうばんじょうきん
+FMA22729	left splenius capitis	左頭板状筋	ひだりとうばんじょうきん
+FMA22740	right iliocostalis lumborum	右腰腸肋筋	みぎようちょうろくきん
+FMA22741	left iliocostalis lumborum	左腰腸肋筋	ひだりようちょうろくきん
+FMA22742	right iliocostalis thoracis	右胸腸肋筋	みぎきょうちょうろくきん
+FMA22743	left iliocostalis thoracis	左胸腸肋筋	ひだりきょうちょうろくきん
+FMA22744	right iliocostalis cervicis	右頚腸肋筋	みぎけいちょうろくきん
+FMA22745	left iliocostalis cervicis	左頚腸肋筋	ひだりけいちょうろくきん
+FMA22751	right longissimus thoracis	右胸最長筋	みぎきょうさいちょうきん
+FMA22753	left longissimus thoracis	左胸最長筋	ひだりきょうさいちょうきん
+FMA22754	right longissimus capitis	右頭最長筋	みぎとうさいちょうきん
+FMA22756	left longissimus capitis	左頭最長筋	ひだりとうさいちょうきん
+FMA22757	right longissimus cervicis	右頚最長筋	みぎけいさいちょうきん
+FMA22758	left longissimus cervicis	左頚最長筋	ひだりけいさいちょうきん
+FMA22770	spinalis cervicis	頚棘筋	けいきょくきん
+FMA22779	right spinalis thoracis	右胸棘筋	みぎきょうきょくきん
+FMA22780	left spinalis thoracis	左胸棘筋	ひだりきょうきょくきん
+FMA22781	right spinalis cervicis	右頚棘筋	みぎけいきょくきん
+FMA22782	left spinalis cervicis	左頚棘筋	ひだりけいきょくきん
+FMA22872	right semispinalis thoracis	右胸半棘筋	みぎきょうはんきょくきん
+FMA22873	left semispinalis thoracis	左胸半棘筋	ひだりきょうはんきょくきん
+FMA22874	right semispinalis cervicis	右頚半棘筋	みぎけいはんきょくきん
+FMA22875	left semispinalis cervicis	左頚半棘筋	ひだりけいはんきょくきん
+FMA22876	right semispinalis capitis	右頭半棘筋	みぎとうはんきょくきん
+FMA22877	left semispinalis capitis	左頭半棘筋	ひだりとうはんきょくきん
+FMA22878	right multifidus	右多裂筋	みぎたれつきん
+FMA22879	left multifidus	左多裂筋	ひだりたれつきん
+FMA23089	right lumbar rotator	右腰回旋筋	みぎようかいせんきん
+FMA23090	left lumbar rotator	左腰回旋筋	ひだりようかいせんきん
+FMA230986	middle phalanx of right little toe	右第五趾中節骨	みぎだいごしちゅうせつこつ
+FMA230988	middle phalanx of left little toe	左第五趾中節骨	ひだりだいごしちゅうせつこつ
+FMA23130	right humerus	右上腕骨	みぎじょうわんこつ
+FMA23131	left humerus	左上腕骨	ひだりじょうわんこつ
+FMA23464	right radius	右橈骨	みぎとうこつ
+FMA23465	left radius	左橈骨	ひだりとうこつ
+FMA23467	right ulna	右尺骨	みぎしゃくこつ
+FMA23468	left ulna	左尺骨	ひだりしゃくこつ
+FMA23707	interosseous membrane of right forearm	右前腕骨間膜	みぎぜんわんこつかんまく
+FMA23708	interosseous membrane of left forearm	左前腕骨間膜	ひだりぜんわんこつかんまく
+FMA23725	right trapezoid	右小菱形骨	みぎしょうりょうけいこつ
+FMA23938	middle phalanx of left index finger	左第二指中節骨	ひだりだいにしちゅうせつこつ
+FMA23940	middle phalanx of left middle finger	左第三指中節骨	ひだりだいさんしちゅうせつこつ
+FMA23942	middle phalanx of left ring finger	左第四指中節骨	ひだりだいよんしちゅうせつこつ
+FMA23944	middle phalanx of left little finger	左第五指中節骨	ひだりだいごしちゅうせつこつ
+FMA23951	distal phalanx of left thumb	左第一指末節骨	ひだりだいいっしまっせつこつ
+FMA23953	distal phalanx of left index finger	左第二指末節骨	ひだりだいにしまっせつこつ
+FMA23955	distal phalanx of left middle finger	左第三指末節骨	ひだりだいさんしまっせつこつ
+FMA23957	distal phalanx of left ring finger	左第四指末節骨	ひだりだいよんしまっせつこつ
+FMA23959	distal phalanx of left little finger	左第五指末節骨	ひだりだいごしまっせつこつ
+FMA24435	right scaphoid	右手舟状骨	みぎてせんじょうこつ
+FMA24436	left scaphoid	左手舟状骨	ひだりてせんじょうこつ
+FMA24437	right lunate	右月状骨	みぎげつじょうこつ
+FMA24438	left lunate	左月状骨	ひだりげつじょうこつ
+FMA24439	right triquetral	右三角骨	みぎさんかくこつ
+FMA24440	left triquetral	左三角骨	ひだりさんかくこつ
+FMA24441	right pisiform	右豆状骨	みぎとうじょうこつ
+FMA24442	left pisiform	左豆状骨	ひだりとうじょうこつ
+FMA24443	right trapezium	右大菱形骨	みぎだいりょうけいこつ
+FMA24444	left trapezium	左大菱形骨	ひだりだいりょうけいこつ
+FMA24445	left trapezoid	左小菱形骨	ひだりしょうりょうけいこつ
+FMA24446	right capitate	右有頭骨	みぎゆうとうこつ
+FMA24447	left capitate	左有頭骨	ひだりゆうとうこつ
+FMA24448	right hamate	右有鈎骨	みぎゆうこうこつ
+FMA24449	left hamate	左有鈎骨	ひだりゆうこうこつ
+FMA24450	proximal phalanx of right thumb	右第一指基節骨	みぎだいいっしきせつこつ
+FMA24451	proximal phalanx of right index finger	右第二指基節骨	みぎだいにしきせつこつ
+FMA24452	proximal phalanx of right middle finger	右第三指基節骨	みぎだいさんしきせつこつ
+FMA24453	proximal phalanx of right ring finger	右第四指基節骨	みぎだいよんしきせつこつ
+FMA24454	proximal phalanx of right little finger	右第五指基節骨	みぎだいごしきせつこつ
+FMA24455	middle phalanx of right index finger	右第二指中節骨	みぎだいにしちゅうせつこつ
+FMA24456	middle phalanx of right middle finger	右第三指中節骨	みぎだいさんしちゅうせつこつ
+FMA24457	middle phalanx of right ring finger	右第四指中節骨	みぎだいよんしちゅうせつこつ
+FMA24458	middle phalanx of right little finger	右第五指中節骨	みぎだいごしちゅうせつこつ
+FMA24459	distal phalanx of right thumb	右第一指末節骨	みぎだいいっしまっせつこつ
+FMA24460	distal phalanx of right index finger	右第二指末節骨	みぎだいにしまっせつこつ
+FMA24461	distal phalanx of right middle finger	右第三指末節骨	みぎだいさんしまっせつこつ
+FMA24462	distal phalanx of right ring finger	右第四指末節骨	みぎだいよんしまっせつこつ
+FMA24463	distal phalanx of right little finger	右第五指末節骨	みぎだいごしまっせつこつ
+FMA24464	right first metacarpal bone	右第一中手骨	みぎだいいちちゅうしゅこつ
+FMA24465	left first metacarpal bone	左第一中手骨	ひだりだいいちちゅうしゅこつ
+FMA24466	right second metacarpal bone	右第二中手骨	みぎだいにちゅうしゅこつ
+FMA24467	left second metacarpal bone	左第二中手骨	ひだりだいにちゅうしゅこつ
+FMA24468	right third metacarpal bone	右第三中手骨	みぎだいさんちゅうしゅこつ
+FMA24469	left third metacarpal bone	左第三中手骨	ひだりだいさんちゅうしゅこつ
+FMA24470	right fourth metacarpal bone	右第四中手骨	みぎだいよんちゅうしゅこつ
+FMA24471	left fourth metacarpal bone	左第四中手骨	ひだりだいよんちゅうしゅこつ
+FMA24472	right fifth metacarpal bone	右第五中手骨	みぎだいごちゅうしゅこつ
+FMA24473	left fifth metacarpal bone	左第五中手骨	ひだりだいごちゅうしゅこつ
+FMA24474	right femur	右大腿骨	みぎだいたいこつ
+FMA24475	left femur	左大腿骨	ひだりだいたいこつ
+FMA24477	right tibia	右脛骨	みぎけいこつ
+FMA24478	left tibia	左脛骨	ひだりけいこつ
+FMA24480	right fibula	右腓骨	みぎひこつ
+FMA24481	left fibula	左腓骨	ひだりひこつ
+FMA24482	right talus	右距骨	みぎきょこつ
+FMA24483	left talus	左距骨	ひだりきょこつ
+FMA24486	right patella	右膝蓋骨	みぎしつがいこつ
+FMA24487	left patella	左膝蓋骨	ひだりしつがいこつ
+FMA24497	right calcaneus	右踵骨	みぎしょうこつ
+FMA24498	left calcaneus	左踵骨	ひだりしょうこつ
+FMA24500	navicular bone of right foot	右足舟状骨	みぎあしせんじょうこつ
+FMA24501	navicular bone of left foot	左足舟状骨	ひだりあしせんじょうこつ
+FMA24507	right first metatarsal bone	右第一中足骨	みぎだいいちちゅうそくこつ
+FMA24508	left first metatarsal bone	左第一中足骨	ひだりだいいちちゅしゅつこつ
+FMA24509	right second metatarsal bone	右第二中足骨	みぎだいにちゅうそくこつ
+FMA24510	left second metatarsal bone	左第二中足骨	ひだりだいにちゅうそくこつ
+FMA24511	right third metatarsal bone	右第三中足骨	みぎだいさんちゅうそくこつ
+FMA24512	left third metatarsal bone	左第三中足骨	ひだりだいさんちゅうそくこつ
+FMA24513	right fourth metatarsal bone	右第四中足骨	みぎだいよんちゅうそくこつ
+FMA24514	left fourth metatarsal bone	左第四中足骨	ひだりだいよんちゅうそっこつ
+FMA24515	right fifth metatarsal bone	右第五中足骨	みぎだいごちゅうそくこつ
+FMA24516	left fifth metatarsal bone	左第五中足骨	ひだりだいごちゅうそくこつ
+FMA24521	right medial cuneiform bone	右内側楔状骨	みぎないそくけいじょうこつ
+FMA24522	left medial cuneiform bone	左内側楔状骨	ひだりないそくけつじょうこつ
+FMA24523	right intermediate cuneiform bone	右中間側楔状骨	みぎちゅうかんそくけいじょうこつ
+FMA24524	left intermediate cuneiform bone	左中間楔状骨	ひだりちゅうかんけつじょうこつ
+FMA24525	right lateral cuneiform bone	右外側楔状骨	みぎがいそくけいじょうこつ
+FMA24526	left lateral cuneiform bone	左外側楔状骨	ひだりがいそくけいじょうこつ
+FMA24528	right cuboid bone	右立方骨	みぎりっぽうこつ
+FMA24529	left cuboid bone	左立方骨	ひだりりっぽうこつ
+FMA25058	intervertebral disk of axis	軸椎椎間円板	じくついついかんえんばん
+FMA258714	right thalamus	右視床	みぎししょう
+FMA258716	left thalamus	左視床	ひだりししょう
+FMA258847	right calcaneal tendon	右踵骨腱	みぎしょうこつけん
+FMA258850	right intermediate tendon	右中間腱	みぎちゅうかんけん
+FMA264840	left intermediate tendon	左中間腱	ひだりちゅうかんけん
+FMA264844	left calcaneal tendon	左踵骨腱	ひだりしょうこつけん
+FMA274027	choroid plexus of right cerebral hemisphere	右大脳半球の脈絡叢	みぎだいのうはんきゅうのみゃくらくそう
+FMA274029	choroid plexus of left cerebral hemisphere	左大脳半球の脈絡叢	ひだりだいのうはんきゅうのみゃくらくそう
+FMA32530	right rectus capitis posterior major	右大後頭直筋	みぎだいこうとうちょくきん
+FMA32531	left rectus capitis posterior major	左大後頭直筋	ひだりだいこうとうちょくきん
+FMA32532	right rectus capitis posterior minor	右小後頭直筋	みぎしょうこうとうちょくきん
+FMA32533	left rectus capitis posterior minor	左小後頭直筋	ひだりしょうこうとうちょくきん
+FMA32534	right obliquus capitis superior	右上頭斜筋	みぎじょうとうしゃきん
+FMA32535	left obliquus capitis superior	左上頭斜筋	ひだりじょうとうしゃきん
+FMA32536	right obliquus capitis inferior	右下頭斜筋	みぎかとうしゃきん
+FMA32537	left obliquus capitis inferior	左下頭斜筋	ひだりかとうしゃきん
+FMA32540	right levator scapulae	右肩甲挙筋	みぎけんこうきょきん
+FMA32541	left levator scapulae	左肩甲挙筋	ひだりけんこうきょきん
+FMA32544	right supraspinatus	右棘上筋	みぎきょくじょうきん
+FMA32545	left supraspinatus	左棘上筋	ひだりきょくじょうきん
+FMA32547	right infraspinatus muscle	右棘下筋	みぎきょくかきん
+FMA32548	left infraspinatus muscle	左棘下筋	ひだりきょくかきん
+FMA32551	right teres major	右大円筋	みぎだいえんきん
+FMA32552	left teres major	左大円筋	ひだりだいえんきん
+FMA32553	right teres minor	右小円筋	みぎしょうえんきん
+FMA32554	left teres minor	左小円筋	ひだりしょうえんきん
+FMA32634	proximal phalanx of right second toe	右第二趾基節骨	みぎだいにしきせつこつ
+FMA32635	proximal phalanx of left second toe	左第二趾基節骨	ひだりだいにしきせつこつ
+FMA32636	proximal phalanx of right third toe	右第三趾基節骨	みぎだいさんしきせつこつ
+FMA32637	proximal phalanx of left third toe	左第三趾基節骨	ひだりだいさんしきせつこつ
+FMA32638	proximal phalanx of right fourth toe	右第四趾基節骨	みぎだいよんしきせつこつ
+FMA32639	proximal phalanx of left fourth toe	左第四趾基節骨	ひだりだいよんしきせつこつ
+FMA32640	proximal phalanx of right little toe	右第五趾基節骨	みぎだいごしきせつこつ
+FMA32641	proximal phalanx of left little toe	左第五趾基節骨	ひだりだいごしきせつこつ
+FMA32642	middle phalanx of right second toe	右第二趾中節骨	みぎだいにしちゅうせつこつ
+FMA32643	middle phalanx of left second toe	左第二趾中節骨	ひだりだいにしちゅうせつこつ
+FMA32644	middle phalanx of right third toe	右第三趾中節骨	みぎだいさんしちゅうせつこつ
+FMA32645	middle phalanx of left third toe	左第三趾中節骨	ひだりだいさんしちゅうせつこつ
+FMA32646	middle phalanx of right fourth toe	右第四趾中節骨	みぎだいよんしちゅうせつこつ
+FMA32647	middle phalanx of left fourth toe	左第四趾中節骨	ひだりだいよんしちゅうせつこつ
+FMA32650	distal phalanx of right big toe	右第一趾末節骨	みぎだいいっしまっせつこつ
+FMA32651	distal phalanx of left big toe	左第一趾末節骨	ひだりだいいっしまっせつこつ
+FMA32652	distal phalanx of right second toe	右第二趾末節骨	みぎだいにしまっせつこつ
+FMA32653	distal phalanx of left second toe	左第二趾末節骨	ひだりだいにしまっせつこつ
+FMA32654	distal phalanx of right third toe	右第三趾末節骨	みぎだいさんしまっせつこつ
+FMA32655	distal phalanx of left third toe	左第三趾末節骨	ひだりだいさんしまっせつこつ
+FMA32656	distal phalanx of right fourth toe	右第四趾末節骨	みぎだいよんしまっせつこつ
+FMA32657	distal phalanx of left fourth toe	左第四趾末節骨	ひだりだいよんしまっせつこつ
+FMA32658	distal phalanx of right little toe	右第五趾末節骨	みぎだいごしまっせつこつ
+FMA32659	distal phalanx of left little toe	左第五趾末節骨	ひだりだいごしまっせつこつ
+FMA33581	ascending part of right trapezius	右僧帽筋上行部	みぎそうぼうきんじょうこうぶ
+FMA33583	ascending part of left trapezius	左僧帽筋上行部	ひだりそうぼうきんじょうこうぶ
+FMA33584	transverse part of right trapezius	右僧帽筋水平部	みぎそうぼうきんすいへいぶ
+FMA33585	transverse part of left trapezius	左僧帽筋水平部	ひだりそうぼうきんすいへいぶ
+FMA33586	descending part of right trapezius	右僧帽筋下行部	みぎそうぼうきんかこうぶ
+FMA33587	descending part of left trapezius	左僧帽筋下行部	ひだりそうぼうきんかこうぶ
+FMA34680	clavicular part of right deltoid	右三角筋鎖骨部	みぎさんかくきんさこつぶ
+FMA34681	clavicular part of left deltoid	左三角筋鎖骨部	ひだりさんかくきんさこつぶ
+FMA34682	acromial part of right deltoid	右三角筋肩峰部	みぎさんかくきんけんほうぶ
+FMA34683	acromial part of left deltoid	左三角筋肩峰部	ひだりさんかくきんけんほうぶ
+FMA34684	spinal part of right deltoid	右三角筋肩甲棘部	みぎさんかくきんけんこうきょくぶ
+FMA34685	spinal part of left deltoid	左三角筋肩甲棘部	ひだりさんかくきんけんこうきょくぶ
+FMA34690	clavicular part of right pectoralis major	右大胸筋鎖骨部	みぎだいきょうきんさこつぶ
+FMA34691	clavicular part of left pectoralis major	左大胸筋鎖骨部	ひだりだいきょうきんさこつぶ
+FMA35192	interosseous membrane of right leg	右下腿骨間膜	みぎかたいこつかんまく
+FMA35193	interosseous membrane of left leg	左下腿骨間膜	ひだりかたいこつかんまく
+FMA37386	right abductor pollicis brevis	右短母指外転筋	みぎたんぼしがいてんきん
+FMA37387	left abductor pollicis brevis	左短母指外転筋	ひだりたんぼしがいてんきん
+FMA37390	right opponens pollicis	右母指対立筋	みぎぼしたいりつきん
+FMA37391	left opponens pollicis	左母指対立筋	ひだりぼしたいりつきん
+FMA37396	abductor digiti minimi of right hand	右小指外転筋	みぎしょうしがいてんきん
+FMA37397	abductor digiti minimi of left hand	左小指外転筋	ひだりしょうしがいてんきん
+FMA37398	flexor digiti minimi brevis of right hand	右短小指屈筋	みぎたんしょうしくっきん
+FMA37399	flexor digiti minimi brevis of left hand	左短小指屈筋	ひだりたんしょうしくっきん
+FMA37400	opponens digiti minimi of right hand	右小指対立筋	みぎしょうしたいりつきん
+FMA37401	opponens digiti minimi of left hand	左小指対立筋	ひだりしょうしたいりつきん
+FMA37459	right abductor hallucis	右母趾外転筋	みぎぼしがいてんきん
+FMA37460	left abductor hallucis	左母趾外転筋	ひだりぼしがいてんきん
+FMA37461	right flexor digitorum brevis	右短趾屈筋	みぎたんしょうくっきん
+FMA37462	left flexor digitorum brevis	左短趾屈筋	ひだりたんしょうくっきん
+FMA37463	abductor digiti minimi of right foot	右小趾外転筋	みぎしょうしがいてんきん
+FMA37464	abductor digiti minimi of left foot	左小趾外転筋	ひだりしょうしがいてんきん
+FMA37465	right flexor accessorius	右足底方形筋	みぎそくていほうけいきん
+FMA37466	left flexor accessorius	左足底方形筋	ひだりそくていほうけいきん
+FMA37471	flexor digiti minimi brevis of right foot	右短小趾屈筋	みぎたんしょうしくっきん
+FMA37472	flexor digiti minimi brevis of left foot	左短小趾屈筋	ひだりたんしょうしくっきん
+FMA37483	fourth lumbrical of right foot	右足第四虫様筋	みぎあしだいよんちゅうようきん
+FMA37484	fourth lumbrical of left foot	左足第四虫様筋	ひだりあしだいよんちゅうようきん
+FMA37485	third lumbrical of right foot	右足第三虫様筋	みぎあしだいさんちゅうようきん
+FMA37486	third lumbrical of left foot	左足第三虫様筋	ひだりあしだいさんちゅうようきん
+FMA37665	right coracobrachialis	右烏口腕筋	みぎうこうわんきん
+FMA37666	left coracobrachialis	左烏口腕筋	ひだりうこうわんきん
+FMA37668	right brachialis	右上腕筋	みぎじょうわんきん
+FMA37669	left brachialis	左上腕筋	ひだりじょうわんきん
+FMA37684	short head of right biceps brachii	右上腕二頭筋短頭	みぎじょうわんにとうきんたんとう
+FMA37685	short head of left biceps brachii	左上腕二頭筋短頭	ひだりじょうわんにとうきんたんとう
+FMA37686	long head of right biceps brachii	右上腕二頭筋長頭	みぎじょうわんにとうきんちょうとう
+FMA37687	long head of left biceps brachii	左上腕二頭筋長頭	ひだりじょうわんにとうきんちょうとう
+FMA37695	medial head of right triceps brachii	右上腕三頭筋内側頭	みぎじょうわんさんとうきんないそくとう
+FMA37696	medial head of left triceps brachii	左上腕三頭筋内側頭	ひだりじょうわんさんとうきんないそくとう
+FMA37697	lateral head of right triceps brachii	右上腕三頭筋外側頭	みぎじょうわんさんとうきんがいそくとう
+FMA37698	lateral head of left triceps brachii	左上腕三頭筋外側頭	ひだりじょうわんさんとうきんがいそくとう
+FMA37699	long head of right triceps brachii	右上腕三頭筋長頭	みぎじょうわんさんとうきんちょうとう
+FMA37700	long head of left triceps brachii	左上腕三頭筋長頭	ひだりじょうわんさんとうきんちょうとう
+FMA37705	right anconeus	右肘筋	みぎちゅうきん
+FMA37706	left anconeus	左肘筋	ひだりちゅうきん
+FMA37717	first lumbrical of right foot	右足第一虫様筋	みぎあしだいいちちゅうようきん
+FMA37718	first lumbrical of left foot	左足第一虫様筋	ひだりあしだいいちちゅうようきん
+FMA37719	second lumbrical of right foot	右足第二虫様筋	みぎあしだいにちゅうようきん
+FMA37720	second lumbrical of left foot	左足第二虫様筋	ひだりあしだいにちゅうようきん
+FMA37741	third plantar interosseous of right foot	右第三底側骨間筋	みぎだいさんていそくこつかんきん
+FMA37742	third plantar interosseous of left foot	左第三底側骨間筋	ひだりだいさんていそくこつかんきん
+FMA37743	second plantar interosseous of right foot	右第二底側骨間筋	みぎだいにていそくこつかんきん
+FMA37744	second plantar interosseous of left foot	左第二底側骨間筋	ひだりだいにていそくこつかんきん
+FMA37745	first plantar interosseous of right foot	右第一底側骨間筋	みぎだいいちていそくこつかんきん
+FMA37746	first plantar interosseous of left foot	左第一底側骨間筋	ひだりだいいちていそくこつかんきん
+FMA3802	trunk of right coronary artery	右冠状動脈主幹	みぎかんじょうどうみゃくしゅかん
+FMA3840nsn	posterior interventricular branch of right coronary artery, nsn	心室中隔枝nsn;右冠状動脈の中隔室間枝nsn	しんしつちゅうかくしnsn；ちゅうかくしつかんし（うかんじょうどうみゃくの）nsn
+FMA38454	right pronator quadratus	右方形回内筋	みぎほうけいかいないきん
+FMA38455	left pronator quadratus	左方形回内筋	ひだりほうけいかいないきん
+FMA38460	right flexor carpi radialis	右橈側手根屈筋	みぎとうそくしゅこんくっきん
+FMA38461	left flexor carpi radialis	左橈側手根屈筋	ひだりとうそくしゅこんくっきん
+FMA38463	right palmaris longus	右長掌筋	みぎちょうしょうきん
+FMA38464	left palmaris longus	左長掌筋	ひだりちょうしょうきん
+FMA38479	right flexor digitorum profundus	右深指屈筋	みぎしんしくっきん
+FMA38480	left flexor digitorum profundus	左深指屈筋	ひだりしんしくっきん
+FMA38482	right flexor pollicis longus	右長母指屈筋	みぎちょうぼしくっきん
+FMA38484	left flexor pollicis longus	左長母指屈筋	ひだりちょうぼしくっきん
+FMA38486	right brachioradialis	右腕橈骨筋	みぎわんとうこつきん
+FMA38487	left brachioradialis	左腕橈骨筋	ひだりわんとうこつきん
+FMA38495	right extensor carpi radialis longus	右長橈側手根伸筋	みぎちょうとうそくしゅこんしんきん
+FMA38496	left extensor carpi radialis longus	左長橈側手根伸筋	ひだりちょうとうそくしゅこんしんきん
+FMA38498	right extensor carpi radialis brevis	右短橈側手根伸筋	みぎたんとうそくしゅこんしんきん
+FMA38499	left extensor carpi radialis brevis	左短橈側手根伸筋	ひだりたんとうそくしゅこんしんきん
+FMA38501	right extensor digitorum	右総指伸筋	みぎそうししんきん
+FMA38502	left extensor digitorum	左総指伸筋	ひだりそうししんきん
+FMA38504	right extensor digiti minimi	右小指伸筋	みぎしょうししんきん
+FMA38505	left extensor digiti minimi	左小指伸筋	ひだりしょうししんきん
+FMA38507	right extensor carpi ulnaris	右尺側手根伸筋	みぎしゃくそくしゅこんしんきん
+FMA38508	left extensor carpi ulnaris	左尺側手根伸筋	ひだりしゃくそくしゅこんしんきん
+FMA38513	right supinator	右回外筋	みぎかいがいきん
+FMA38514	left supinator	左回外筋	ひだりかいがいきん
+FMA38516	right abductor pollicis longus	右長母指外転筋	みぎちょうぼしがいてんきん
+FMA38517	left abductor pollicis longus	左長母指外転筋	ひだりちょうぼしがいてんきん
+FMA38519	right extensor pollicis brevis	右短母指伸筋	みぎたんぼししんきん
+FMA38520	left extensor pollicis brevis	左短母指伸筋	ひだりたんぼししんきん
+FMA38522	right extensor pollicis longus	右長母指伸筋	みぎちょうぼししんきん
+FMA38523	left extensor pollicis longus	左長母指伸筋	ひだりちょうぼししんきん
+FMA38525	right extensor indicis	右示指伸筋	みぎしじしんきん
+FMA38526	left extensor indicis	左示指伸筋	ひだりしじしんきん
+FMA38560	humeral head of right pronator teres	右円回内筋上腕頭	みぎえんかいないきんじょうわんとう
+FMA38561	humeral head of left pronator teres	左円回内筋上腕頭	ひだりえんかいないきんじょうわんとう
+FMA38562	ulnar head of right pronator teres	右円回内筋尺骨頭	みぎえんかいないきんしゃくこつとう
+FMA38563	ulnar head of left pronator teres	左円回内筋尺骨頭	ひだりえんかいないきんしゃくこつとう
+FMA38617	humeral head of right flexor carpi ulnaris	右尺側手根屈筋上腕頭	みぎしゃくそくしゅこんくっきんじょうわんとう
+FMA38618	humeral head of left flexor carpi ulnaris	左尺側手根屈筋上腕頭	ひだりしゃくそくしゅこんくっきんじょうわんとう
+FMA38619	ulnar head of right flexor carpi ulnaris	右尺側手根屈筋尺骨頭	みぎしゃくそくしゅこんくっきんしゃくこつとう
+FMA38620	ulnar head of left flexor carpi ulnaris	左尺側手根屈筋尺骨頭	ひだりしゃくそくしゅこんくっきんしゃくこつとう
+FMA3862nsn	anterior interventricular branch of left coronary artery, nsn	心室中隔枝nsn;左冠状動脈の中隔室間枝nsn	しんしつちゅうかくしnsn；ちゅうかくしつかんし（さかんじょうどうみゃくの）nsn
+FMA38638	humeroulnar head of right flexor digitorum superficialis	右浅指屈筋上腕尺骨頭	みぎせんしくっきんじょうわんしゃっこつとう
+FMA38639	humeroulnar head of left flexor digitorum superficialis	左浅指屈筋上腕尺骨頭	ひだりせんしくっきんじょうわんしゃっこつとう
+FMA38640	radial head of right flexor digitorum superficialis	右浅指屈筋橈骨頭	みぎせんしくっきんとうこつとう
+FMA38641	radial head of left flexor digitorum superficialis	左浅指屈筋橈骨頭	ひだりせんしくっきんとうこつとう
+FMA38928	right rectus femoris	右大腿直筋	みぎだいたいちょくきん
+FMA38929	left rectus femoris	左大腿直筋	ひだりだいたいちょくきん
+FMA38930	right vastus lateralis	右外側広筋	みぎがいそくこうきん
+FMA38931	left vastus lateralis	左外側広筋	ひだりがいそくこうきん
+FMA38932	right vastus medialis	右内側広筋	みぎないそくこうきん
+FMA38933	left vastus medialis	左内側広筋	ひだりないそくこうきん
+FMA38934	right vastus intermedius	右中間広筋	みぎちゅうかんこうきん
+FMA38935	left vastus intermedius	左中間広筋	ひだりちゅうかんこうきん
+FMA3932nsn	brachiocephalic artery, nsn	腕頭動脈nsn	わんとうどうみゃくnsn
+FMA3941	right common carotid artery	右総頚動脈	みぎそうけいどうみゃく
+FMA3953	right subclavian artery	右鎖骨下動脈	みぎさこつかどうみゃく
+FMA40120	flexor retinaculum of right wrist	右手の屈筋支帯	みぎてのくっきんしたい
+FMA40121	flexor retinaculum of left wrist	左手の屈筋支帯	ひだりてのくっきんしたい
+FMA4058	left common carotid artery	左総頚動脈	ひだりそうけいどうみゃく
+FMA42398	set of lumbricals of right hand	右手の虫様筋	みぎてのちゅうようきん
+FMA42399	set of lumbricals of left hand	左手の虫様筋	ひだりてのちゅうようきん
+FMA42402	set of palmar interossei of right hand	右掌側骨間筋	みぎしょうそくこつかんきん
+FMA42403	set of palmar interossei of left hand	左掌側骨間筋	ひだりしょうそくこつかんきん
+FMA42404	set of dorsal interossei of right hand	右手の背側骨間筋	みぎてのはいそくこっかんきん
+FMA42405	set of dorsal interossei of left hand	左手の背側骨間筋	ひだりてのはいそくこっかんきん
+FMA43253	proximal phalanx of right big toe	右第一趾基節骨	みぎだいいっしきせつこつ
+FMA43254	proximal phalanx of left big toe	左第一趾基節骨	ひだりだいいっしきせつこつ
+FMA43883	right gracilis	右薄筋	みぎはくきん
+FMA43884	left gracilis	左薄筋	ひだりはくきん
+FMA43886	right adductor minimus	右小内転筋	みぎしょうないてんきん
+FMA43887	left adductor minimus	左小内転筋	ひだりしょうないてんきん
+FMA44249	right long plantar ligament	右長足底靱帯	みぎちょうそくていじんたい
+FMA44250	left long plantar ligament	左長足底靱帯	ひだりちょうそくていじんたい
+FMA45097	sesamoid bone of right foot	種子骨(右足の）	しゅしこつ（みぎあしの）
+FMA45098	sesamoid bone of left foot	種子骨(左足の）	しゅしこつ（ひだりあしの）
+FMA45739	right platysma	右広頚筋	みぎこうけいきん
+FMA45740	left platysma	左広頚筋	ひだりこうけいきん
+FMA45826	right stylohyoid	右茎突舌骨筋	みぎけいとつぜつこつきん
+FMA45827	left stylohyoid	左茎突舌骨筋	ひだりけいとつぜつこつきん
+FMA45854	right pubococcygeus	右恥骨尾骨筋	みぎちこつびこつきん
+FMA45855	left pubococcygeus	左恥骨尾骨筋	ひだりちこつびこつきん
+FMA45856	right puborectalis	右恥骨直腸筋	みぎちこつちょうくちょうきん
+FMA45857	left puborectalis	左恥骨直腸筋	ひだりちこつちょうくちょうきん
+FMA45858	right iliococcygeus	右腸骨尾骨筋	みぎちょうこつびこつきん
+FMA45859	left iliococcygeus	左腸骨尾骨筋	ひだりちょうこつびこつきん
+FMA45874	abdominal part of right pectoralis major	右大胸筋腹部	みぎだいきょうきんふくぶ
+FMA45875	abdominal part of left pectoralis major	左大胸筋腹部	ひだりだいきょうきんふくぶ
+FMA45888	long head of right biceps femoris	右大腿二頭筋長頭	みぎだいたいにとうきんちょうとう
+FMA45889	long head of left biceps femoris	左大腿二頭筋長頭	ひだりだいたいにとうきんちょうとう
+FMA45891	short head of right biceps femoris	右大腿二頭筋短頭	みぎだいたいにとうきんたんとう
+FMA45892	short head of left biceps femoris	左大腿二頭筋短頭	ひだりだいたいにとうきんたんとう
+FMA45957	medial head of right gastrocnemius	右腓腹筋内側頭	みぎひふくきんないそくとう
+FMA45958	medial head of left gastrocnemius	左腓腹筋内側頭	ひだりひふくきんないそくとう
+FMA45960	lateral head of right gastrocnemius	右腓腹筋外側頭	みぎひふくきんがいそくとう
+FMA45961	lateral head of left gastrocnemius	左腓腹筋外側頭	ひだりひふくきんがいそくとう
+FMA45971	medial head of right flexor hallucis brevis	右短母趾屈筋内側頭	みぎたんぼしくっきんないそくとう
+FMA45972	medial head of left flexor hallucis brevis	左短母趾屈筋内側頭	ひだりたんぼしくっきんないそくとう
+FMA45973	lateral head of right flexor hallucis brevis	右短母趾屈筋外側頭	みぎたんぼしくっきんがいそくとう
+FMA45974	lateral head of left flexor hallucis brevis	左短母趾屈筋外側頭	ひだりたんぼしくっきんがいそくとう
+FMA46018	oblique head of right adductor hallucis	右母趾内転筋斜頭	みぎぼしないてんきんしゃとう
+FMA46019	oblique head of left adductor hallucis	左母趾内転筋斜頭	ひだりぼしないてんきんしゃとう
+FMA46020	transverse head of right adductor hallucis	右母趾内転筋横頭	みぎぼしないてんきんおうとう
+FMA46021	transverse head of left adductor hallucis	左母趾内転筋横頭	ひだりぼしないてんきんおうとう
+FMA46110	deep head of right flexor pollicis brevis	右短母指屈筋深頭	みぎたんぼしくっきんしんとう
+FMA46111	deep head of left flexor pollicis brevis	左短母指屈筋深頭	ひだりたんぼしくっきんしんとう
+FMA46121	oblique head of right adductor pollicis	右母指内転筋斜頭	みぎぼしないてんきんしゃとう
+FMA46122	oblique head of left adductor pollicis	左母指内転筋斜頭	ひだりぼしないてんきんしゃとう
+FMA46123	transverse head of right adductor pollicis	右母指内転筋横頭	みぎぼしないてんきんおうとう
+FMA46124	transverse head of left adductor pollicis	左母指内転筋横頭	ひだりぼしないてんきんおうとう
+FMA46283	superior oblique part of right longus colli	右頚長筋上斜線維	みぎけいちょうきんじょうしゃせんい
+FMA46284	superior oblique part of left longus colli	左頚長筋上斜線維	ひだりけいちょうきんじょうしゃせんい
+FMA46285	vertical intermediate part of right longus colli	右頚長筋垂直線維	みぎけいちょうきんすいちょくせんい
+FMA46286	vertical intermediate part of left longus colli	左頚長筋垂直線維	ひだりけいちょうきんすいちょくせんい
+FMA46287	inferior oblique part of right longus colli	右頚長筋下斜線維	みぎけいちょうきんかしゃせんい
+FMA46288	inferior oblique part of left longus colli	左頚長筋下斜線維	ひだりけいちょうきんかしゃせんい
+FMA46304	anterior belly of right digastric	右顎二腹筋前腹	みぎがくにふくきんぜんぷく
+FMA46305	anterior belly of left digastric	左顎二腹筋前腹	ひだりがくにふくきんぜんぷく
+FMA46306	posterior belly of right digastric	右顎二腹筋後腹	みぎがくにふくきんこうふく
+FMA46307	posterior belly of left digastric	左顎二腹筋後腹	ひだりがくにふくきんこうふく
+FMA46309	right longus capitis	右頭長筋	みぎとうちょうきん
+FMA46310	left longus capitis	左頭長筋	ひだりとうちょうきん
+FMA46313	right rectus capitis anterior	右前頭直筋	みぎぜんとうちょくきん
+FMA46314	left rectus capitis anterior	左前頭直筋	ひだりぜんとうちょくきん
+FMA46317	right rectus capitis lateralis	右外側頭長筋	みぎがいそくとうちょうきん
+FMA46318	left rectus capitis lateralis	左外側頭長筋	ひだりがいそくとうちょうきん
+FMA46321	right mylohyoid	右顎舌骨筋	みぎがくぜつこつきん
+FMA46322	left mylohyoid	左顎舌骨筋	ひだりがくぜつこつきん
+FMA46326	right geniohyoid	右オトガイ舌骨筋	みぎおとがいぜつこつきん
+FMA46327	left geniohyoid	左オトガイ舌骨筋	ひだりおとがいぜつこつきん
+FMA46443	right coccygeus	右坐骨尾骨筋	みぎざこつびこつきん
+FMA46444	left coccygeus	左坐骨尾骨筋	ひだりざこつびこつきん
+FMA46759	right frontalis	右前頭筋	みぎぜんとうきん
+FMA46760	left frontalis	左前頭筋	ひだりぜんとうきん
+FMA46761	right occipitalis	右後頭筋	みぎこうとうきん
+FMA46762	left occipitalis	左後頭筋	ひだりこうとうきん
+FMA46763	right temporoparietalis	右側頭頭頂筋	みぎそくとうとうちょうきん
+FMA46764	left temporoparietalis	左側頭頭頂筋	ひだりそくとうとうちょうきん
+FMA46782	orbital part of right orbicularis oculi	右眼輪筋眼窩部	みぎがんりんきんがんかぶ
+FMA46783	orbital part of left orbicularis oculi	左眼輪筋眼窩部	ひだりがんりんきんがんかぶ
+FMA46785	palpebral part of right orbicularis oculi	右眼輪筋眼瞼部	みぎがんりんきんがんけんぶ
+FMA46786	palpebral part of left orbicularis oculi	左眼輪筋眼瞼部	ひだりがんりんきんがんけんぶ
+FMA46796	right corrugator supercilii	右皺眉筋	みぎしゅうびきん
+FMA46797	left corrugator supercilii	左皺眉筋	ひだりしゅうびきん
+FMA46803	right levator labii superioris alaeque nasi	右上唇鼻翼挙筋	みぎじょうしんびよくきょきん
+FMA46804	left levator labii superioris alaeque nasi	左上唇鼻翼挙筋	ひだりじょうしんびよくきょきん
+FMA46806	right levator labii superioris	右上唇挙筋	みぎじょうしんきょきん
+FMA46807	left levator labii superioris	左上唇挙筋	ひだりじょうしんきょきん
+FMA46812	right zygomaticus major	右大頬骨筋	みぎだいきょうこつきん
+FMA46813	left zygomaticus major	左大頬骨筋	ひだりだいきょうこつきん
+FMA46814	right zygomaticus minor	右小頬骨筋	みぎしょうきょうこつきん
+FMA46815	left zygomaticus minor	左小頬骨筋	ひだりしょうきょうこつきん
+FMA46817	right depressor labii inferioris	右下唇下制筋	みぎかしんかせいきん
+FMA46818	left depressor labii inferioris	左下唇下制筋	ひだりかしんかせいきん
+FMA46823	right levator anguli oris	右口角挙筋	みぎこうかくきょきん
+FMA46824	left levator anguli oris	左口角挙筋	ひだりこうかくきょきん
+FMA46826	right mentalis	右オトガイ筋	みぎおとがいきん
+FMA46827	left mentalis	左オトガイ筋	ひだりおとがいきん
+FMA46829	right depressor anguli oris	右口角下制筋	みぎこうかくかせいきん
+FMA46830	left depressor anguli oris	左口角下制筋	ひだりこうかくかせいきん
+FMA46835	right buccinator	右頬筋	みぎきょうきん
+FMA46836	left buccinator	左頬筋	ひだりきょうきん
+FMA46839	right risorius	右笑筋	みぎしょうきん
+FMA46840	left risorius	左笑筋	ひだりしょうきん
+FMA4685	stem of left coronary artery	左冠状動脈主幹	ひだりかんじょうどうみゃくしゅかん
+FMA4694	left subclavian artery	左鎖骨下動脈	ひだりさこつかどうみゃく
+FMA4751	right brachiocephalic vein	右腕頭静脈	みぎわんとうじょうみゃく
+FMA4754	right internal jugular vein	右内頚静脈	みぎないけいじょうみゃく
+FMA4755	right subclavian vein	右鎖骨下静脈	みぎさこつかじょうみゃく
+FMA4761	left brachiocephalic vein	左腕頭静脈	ひだりわんとうじょうみゃく
+FMA4762	left internal jugular vein	左内頚静脈	ひだりないけいじょうみゃく
+FMA4763	left subclavian vein	左鎖骨下静脈	ひだりさこつかじょうみゃく
+FMA49001	superficial part of right masseter	右咬筋浅部	みぎこうきんせんぶ
+FMA49002	superficial part of left masseter	左咬筋浅部	ひだりこうきんせんぶ
+FMA49004	deep part of right masseter	右咬筋深部	みぎこうきんしんぶ
+FMA49005	deep part of left masseter	左咬筋深部	ひだりこうきんしんぶ
+FMA49007	right temporalis	右側頭筋	みぎそくとうきん
+FMA49008	left temporalis	左側頭筋	ひだりそくとうきん
+FMA49012	right medial pterygoid	右内側翼突筋	みぎないそくよくとつきん
+FMA49013	left medial pterygoid	左内側翼突筋	ひだりないそくよくとつきん
+FMA49022	lower head of right lateral pterygoid	右外側翼突筋下頭	みぎがいそくよくとつきんかとう
+FMA49023	lower head of left lateral pterygoid	左外側翼突筋下頭	ひだりがいそくよくとつきんかとう
+FMA49024	upper head of right lateral pterygoid	右外側翼突筋上頭	みぎがいそくよくとつきんじょうとう
+FMA49025	upper head of left lateral pterygoid	左外側翼突筋上頭	ひだりがいそくよくとつきんじょうとう
+FMA50737	celiac artery	腹腔動脈	ふくくうどうみゃく
+FMA50875	right optic nerve	右視神経	みぎししんけい
+FMA50878	left optic nerve	左視神経	ひだりししんけい
+FMA51142	right extensor digitorum brevis	右短趾伸筋	みぎたんししんきん
+FMA51143	left extensor digitorum brevis	左短趾伸筋	ひだりたんししんきん
+FMA51144	right extensor hallucis brevis	右短母趾伸筋	みぎたんぼししんきん
+FMA51145	left extensor hallucis brevis	左短母趾伸筋	ひだりたんぼししんきん
+FMA52738	right temporal bone	右側頭骨	みぎそくとうこつ
+FMA52739	left temporal bone	左側頭骨	ひだりそくとうこつ
+FMA52788	right parietal bone	右頭頂骨	みぎとうちょうこつ
+FMA52789	left parietal bone	左頭頂骨	ひだりとうちょうこつ
+FMA52892	right zygomatic bone	右頬骨	みぎきょうこつ
+FMA52893	left zygomatic bone	左頬骨	ひだりきょうこつ
+FMA53645	right lacrimal bone	右涙骨	みぎるいこつ
+FMA53646	left lacrimal bone	左涙骨	ひだりるいこつ
+FMA53647	right nasal bone	右鼻骨	みぎびこつ
+FMA53648	left nasal bone	左鼻骨	ひだりびこつ
+FMA53649	right maxilla	右上顎骨	みぎじょうがくこつ
+FMA53650	left maxilla	左上顎骨	ひだりじょうがくこつ
+FMA53655	right palatine bone	右口蓋骨	みぎこうがいこつ
+FMA53656	left palatine bone	左口蓋骨	ひだりこうがいこつ
+FMA54737	right inferior nasal concha	右下鼻甲介	みぎかびこうかい
+FMA54738	left inferior nasal concha	左下鼻甲介	ひだりかびこうかい
+FMA55606	right nasalis	右鼻筋	みぎびきん
+FMA55607	left nasalis	左鼻筋	ひだりびきん
+FMA55608	right depressor septi nasi	右鼻中隔下制筋	みぎびちゅうかくかせいきん
+FMA55609	left depressor septi nasi	左鼻中隔下制筋	ひだりびちゅうかくかせいきん
+FMA55610	right procerus	右鼻根筋	みぎびこんきん
+FMA55611	left procerus	左鼻根筋	ひだりびこんきん
+FMA55680	right upper lateral secondary incisor tooth	右上側切歯	みぎじょうそくせっし
+FMA55681	right upper central secondary incisor tooth	右上中切歯	みぎうえちゅうせっし
+FMA55682	left upper central secondary incisor tooth	左上中切歯	ひだりうえちゅうせっし
+FMA55683	left upper lateral secondary incisor tooth	左上側切歯	ひだりじょうそくせっし
+FMA55686	right lower secondary canine tooth	右下犬歯	みぎしたけんし
+FMA55687	left lower secondary canine tooth	左下犬歯	ひだりしたけんし
+FMA55688	right upper second secondary premolar tooth	右上第二小臼歯	みぎうえだいにしょうきゅうし
+FMA55689	right upper first secondary premolar tooth	右上第一小臼歯	みぎうえだいいちしょうきゅうし
+FMA55690	left upper first secondary premolar tooth	左上第一小臼歯	ひだりうえだいいちしょうきゅうし
+FMA55691	left upper second secondary premolar tooth	左上第二小臼歯	ひだりうえだいにしょうきゅうし
+FMA55692	left lower second secondary premolar tooth	左下第二小臼歯	ひだりしただいにしょうきゅうし
+FMA55693	left lower first secondary premolar tooth	左下第一小臼歯	ひだりしただいいちしょうきゅうし
+FMA55694	right lower first secondary premolar tooth	右下第一小臼歯	みぎしただいいちしょうきゅうし
+FMA55695	right lower second secondary premolar tooth	右下第二小臼歯	みぎしただいにしょうきゅうし
+FMA55697	right upper second secondary molar tooth	右上第二大臼歯	みぎうえだいにだいきゅうし
+FMA55698	right upper first secondary molar tooth	右上第一大臼歯	みぎうえだいいちだいきゅうし
+FMA55699	left upper first secondary molar tooth	左上第一大臼歯	ひだりうえだいいちだいきゅうし
+FMA55700	left upper second secondary molar tooth	左上第二大臼歯	ひだりうえだいにだいきゅうし
+FMA55703	left lower second secondary molar tooth	左下第二大臼歯	ひだりしただいにだいきゅうし
+FMA55704	left lower first secondary molar tooth	左下第一大臼歯	ひだりしただいいちだいきゅうし
+FMA55705	right lower first secondary molar tooth	右下第一大臼歯	みぎしただいいちだいきゅうし
+FMA55706	right lower second secondary molar tooth	右下第二大臼歯	みぎしただいにだいきゅうし
+FMA55798	right upper secondary canine tooth	右上犬歯	みぎうえけんし
+FMA55799	left upper secondary canine tooth	左上犬歯	ひだりうえけんし
+FMA57140	right lower lateral secondary incisor tooth	右下側切歯	みぎかそくせっし
+FMA57141	left lower lateral secondary incisor tooth	左下側切歯	ひだりかそくせっし
+FMA57142	right lower central secondary incisor tooth	右下中切歯	みぎしたちゅうせっし
+FMA57143	left lower central secondary incisor tooth	左下中切歯	ひだりしたちゅうせっし
+FMA58776	right iliotibial tract	右腸頚靭帯	みぎちょうけいじんたい
+FMA58777	left iliotibial tract	左腸頚靭帯	ひだりちょうけいじんたい
+FMA59763	gingiva of upper jaw	上顎歯肉	じょうがくしにく
+FMA59764	gingiva of lower jaw	下顎歯肉	かがくしにく
+FMA59815nsn	labial part of mouth, nsn	口唇nsn;クチビルnsn	こうしんnsn；くちびるnsn
+FMA61822	white matter structure of cerebral hemisphere	白質（大脳半球の）	はくしつ（だいのうはんきゅうの）
+FMA61993nsn	midbrain, nsn	中脳nsn	ちゅうのうnsn
+FMA62008nsn	hypothalamus, nsn	視床下部nsn	ししょうかぶnsn
+FMA62382	right optic tract	右視索	みぎしさく
+FMA65014	right flexor hallucis longus	右長母趾屈筋	みぎちょうぼしくっきん
+FMA65015	left flexor hallucis longus	左長母趾屈筋	ひだりちょうぼしくっきん
+FMA65016	right flexor digitorum longus	右長趾屈筋	みぎちょうしくっきん
+FMA65017	left flexor digitorum longus	左長趾屈筋	ひだりちょうしくっきん
+FMA65018	right tibialis posterior	右後脛骨筋	みぎこうけいこつきん
+FMA65019	left tibialis posterior	左後脛骨筋	ひだりこうけいこつきん
+FMA65198	superficial head of right flexor pollicis brevis	右短母指屈筋浅頭	みぎたんぼしくっきんせんとう
+FMA65199	superficial head of left flexor pollicis brevis	左短母指屈筋浅頭	ひだりたんぼしくっきんせんとう
+FMA65470	proximal phalanx of left thumb	左第一指基節骨	ひだりだいいっしきせつこつ
+FMA66326	pulmonary artery	肺動脈	はいどうみゃく
+FMA66643	pulmonary vein	肺静脈	はいじょうみゃく
+FMA66791	proximal phalanx of left little finger	左第五指基節骨	ひだりだいごしきせつこつ
+FMA67936	left optic tract	左視索	ひだりしさく
+FMA71194	right lobe of thymus	胸腺右葉	きょうせんうよう
+FMA71195	left lobe of thymus	胸腺左葉	きょうせんさよう
+FMA71908	proximal phalanx of left middle finger	左第三指基節骨	ひだりだいさんしきせつこつ
+FMA71915	proximal phalanx of left index finger	左第二指基節骨	ひだりだいにしきせつこつ
+FMA71916	proximal phalanx of left ring finger	左第四指基節骨	ひだりだいよんしきせつこつ
+FMA7198nsn	pancreas, nsn	膵臓nsn	すいぞうnsn
+FMA7204	right kidney	右腎臓	みぎじんぞう
+FMA7205	left kidney	左腎臓	ひだりじんぞう
+FMA7211	right testis	右精巣	みぎせいそう
+FMA7212	left testis	左精巣	ひだりせいそう
+FMA7259	papillary muscle of right ventricle	右心室乳頭筋	うしんしつにゅうとうきん
+FMA72653	right superior frontal gyrus	右上前頭回	みぎじょうぜんとうかい
+FMA72654	left superior frontal gyrus	左上前頭回	ひだりじょうぜんとうかい
+FMA72655	right middle frontal gyrus	右内側前頭回/右中前頭回	みぎないそくぜんとうかい/みぎちゅうぜんとうかい
+FMA72656	left middle frontal gyrus	左内側前頭回/左中前頭回	ひだりないそくぜんとうかい/ひだりちゅうぜんとうかい
+FMA72661	right precentral gyrus	右中心前回	みぎちゅうしんぜんかい
+FMA72662	left precentral gyrus	左中心前回	ひだりちゅうしんぜんかい
+FMA72665	right postcentral gyrus	右中心後回	みぎちゅうしんこうかい
+FMA72666	left postcentral gyrus	左中心後回	ひだりちゅうしんこうかい
+FMA72667	right supramarginal gyrus	右縁上回	みぎえんじょうかい
+FMA72668	left supramarginal gyrus	左縁上回	ひだりえんじょうかい
+FMA72669	right angular gyrus	右角回	みぎかくかい
+FMA72670	left angular gyrus	左角回	ひだりかくかい
+FMA72685	right middle temporal gyrus	右中側頭回	みぎちゅうそくとうかい
+FMA72686	left middle temporal gyrus	左中側頭回	ひだりちゅうそくとうかい
+FMA72687	right inferior temporal gyrus	右下側頭回	みぎかそくとうかい
+FMA72688	left inferior temporal gyrus	左下側頭回	ひだりかそくとうかい
+FMA72689	right fusiform gyrus	右側頭葉の外側後頭側頭回	がいそくこうとうそくとうかい（みぎそくとうようの）
+FMA72690	left fusiform gyrus	左側頭葉の外側後頭側頭回	がいそくこうとうそくとうかい（ひだりそくとうようの）
+FMA72701	right accessory short gyrus	右副短回	みぎふくたんかい
+FMA72702	left accessory short gyrus	左副短回	ひだりふくたんかい
+FMA72705	right parahippocampal gyrus	右海馬傍回	みぎかいばぼうかい
+FMA72706	left parahippocampal gyrus	左海馬傍回	ひだりかいばぼうかい
+FMA72713	right hippocampus	右海馬	みぎかいば
+FMA72714	left hippocampus	左海馬	ひだりかいば
+FMA72717	right cingulate gyrus	右帯状回	みぎたいじょうかい
+FMA72718	left cingulate gyrus	左帯状回	ひだりたいじょうかい
+FMA7274	wall of heart	心臓壁	しんそうへき
+FMA72800	anterior part of right superior temporal gyrus	右上側頭回前部	うじょうそくとうかいぜんぶ
+FMA72801	anterior part of left superior temporal gyrus	左上側頭回前部	さじょうそくとうかいぜんぶ
+FMA72804	posterior part of right superior temporal gyrus	右上側頭回後部	うじょうそくとうかいこうぶ
+FMA72805	posterior part of left superior temporal gyrus	左上側頭回後部	さじょうそくとうかいこうぶ
+FMA72826	right caudate nucleus	右尾状核	みぎびじょうかく
+FMA72827	left caudate nucleus	左尾状核	ひだりびじょうかく
+FMA72828	right putamen	右被殻	みぎひかく
+FMA72829	left putamen	左被殻	ひだりひかく
+FMA72830	right globus pallidus	右淡蒼球	みぎたんそうきゅう
+FMA72831	left globus pallidus	左淡蒼球	ひだりたんそうきゅう
+FMA72832	right amygdala	右扁桃体	みぎへんとうたい
+FMA72833	left amygdala	左扁桃体	ひだりへんとうたい
+FMA72908	anterior limb of right internal capsule	右内包の前脚;右内包前脚	みぎないほうのぜんきゃく；みぎないほうぜんきゃく
+FMA72909	anterior limb of left internal capsule	左内包の前脚;左内包前脚	ひだりないほうのぜんきゃく；ひだりないほうぜんきゃく
+FMA72924	right fornix of forebrain	右脳弓	みぎのうきゅう
+FMA72925	left fornix of forebrain	左脳弓	ひだりのうきゅう
+FMA72939	right stria terminalis	右分界条	みぎぶんかいじょう
+FMA72940	left stria terminalis	左分界条	ひだりぶんかいじょう
+FMA72975	right occipital lobe	右後頭葉	みぎこうとうよう
+FMA72976	left occipital lobe	左後頭葉	ひだりこうとうよう
+FMA72977	right insula	右島	みぎとう
+FMA72978	left insula	左島	ひだりとう
+FMA73303	right lateral geniculate body	右外側膝状体	みぎがいそくしつじょうたい
+FMA73304	left lateral geniculate body	左外側膝状体	ひだりがいそくしつじょうたい
+FMA73309	right medial geniculate body	右内側膝状体	みぎないそくしつじょうたい
+FMA73310	left medial geniculate body	左内側膝状体	ひだりないそくしつじょうたい
+FMA73413	right stria medullaris of thalamus	右視床髄条	みぎししょうずいじょう
+FMA73414	left stria medullaris of thalamus	左視床髄条	ひだりししょうずいじょう
+FMA73422	right superior colliculus	右上丘	みぎじょうきゅう
+FMA73423	left superior colliculus	左上丘	ひだりじょうきゅう
+FMA73434	right inferior colliculus	右下丘	みぎかきゅう
+FMA73435	left inferior colliculus	左下丘	ひだりかきゅう
+FMA73461	brachium of right superior colliculus	右上丘腕	みぎじょうきゅうわん
+FMA73462	brachium of left superior colliculus	左上丘腕	ひだりじょうきゅうわん
+FMA73463	brachium of right inferior colliculus	右下丘腕	みぎかきゅうわん
+FMA73464	brachium of left inferior colliculus	左下丘腕	ひだりかきゅうわん
+FMA74075	set of right levatores costarum longi	右長肋骨挙筋	みぎちょうろっこつきょきん
+FMA74076	set of left levatores costarum longi	左長肋骨挙筋	ひだりちょうろっこつきょきん
+FMA74077	set of right levatores costarum breves	右短肋骨挙筋	みぎたんろっこつきょきん
+FMA74078	set of left levatores costarum breves	左短肋骨挙筋	ひだりたんろっこつきょきん
+FMA7409	bronchus	気管支	きかんし
+FMA74140	set of dorsal interossei of right foot	右足の背側骨間筋	みぎあしのはいそくこっかんきん
+FMA74141	set of dorsal interossei of left foot	左足の背側骨間筋	ひだりあしのはいそくこっかんきん
+FMA78449	right lateral ventricle	右側脳室	みぎそくのうしつ
+FMA78450	left lateral ventricle	左側脳室	ひだりそくのうしつ
+FMA7857	right first rib	右第一肋骨	みぎだいいちろっこつ
+FMA7875	right first costal cartilage	右第一肋軟骨	みぎだいいちろくなんこつ
+FMA7882	right second rib	右第二肋骨	みぎだいにろっこつ
+FMA7886	right second costal cartilage	右第二肋軟骨	みぎだいにろくなんこつ
+FMA7909	right third rib	右第三肋骨	みぎだいさんろっこつ
+FMA7913	right third costal cartilage	右第三肋軟骨	みぎだいさんろくなんこつ
+FMA7957	right fourth rib	右第四肋骨	みぎだいよんろっこつ
+FMA7976	right fourth costal cartilage	右第四肋軟骨	みぎだいよんろくなんこつ
+FMA7987	left first rib	左第一肋骨	ひだりだいいちろっこつ
+FMA79979	sternocostal part of right pectoralis major	右大胸筋胸肋部	みぎだいきょうきんきょうろくぶ
+FMA79980	sternocostal part of left pectoralis major	左大胸筋胸肋部	ひだりだいきょうきんきょうろくぶ
+FMA8005	left first costal cartilage	左第一肋軟骨	ひだりだいいちろくなんこつ
+FMA8012	left second rib	左第二肋骨	ひだりだいいちろっこつ
+FMA8031	left second costal cartilage	左第二肋軟骨	ひだりだいにろくなんこつ
+FMA8039	left third rib	左第三肋骨	ひだりだいいちろっこつ
+FMA8058	left third costal cartilage	左第三肋軟骨	ひだりだいさんろくなんこつ
+FMA8066	right fifth rib	右第五肋骨	みぎだいごろっこつ
+FMA8070	right fifth costal cartilage	右第五肋軟骨	みぎだいごろくなんこつ
+FMA8093	left fifth rib	左第五肋骨	ひだりだいごろっこつ
+FMA8112	left fifth costal cartilage	左第五肋軟骨	ひだりだいごろくなんこつ
+FMA8148	left fourth rib	左第四肋骨	ひだりだいいちろっこつ
+FMA8167	left fourth costal cartilage	左第四肋軟骨	ひだりだいよんろくなんこつ
+FMA8175	right sixth rib	右第六肋骨	みぎだいろくろっこつ
+FMA81752	right cervical rotator	右頚回旋筋	みぎけいかいせんきん
+FMA81753	left cervical rotator	左頚回旋筋	ひだりけいかいせんきん
+FMA8194	right sixth costal cartilage	右第六肋軟骨	みぎだいろくろくなんこつ
+FMA8202	left sixth rib	左第六肋骨	ひだりだいろくろっこつ
+FMA8221	left sixth costal cartilage	左第六肋軟骨	ひだりだいろくろくなんこつ
+FMA8229	right seventh rib	右第七肋骨	みぎだいななろっこつ
+FMA8248	right seventh costal cartilage	右第七肋軟骨	みぎだいななろくなんこつ
+FMA8256	left seventh rib	左第七肋骨	ひだりだいななろっこつ
+FMA8275	left seventh costal cartilage	左第七肋軟骨	ひだりだいななろくなんこつ
+FMA8283	right eighth rib	右第八肋骨	みぎだいはちろっこつ
+FMA8310	left eighth rib	左第八肋骨	ひだりだいはちろっこつ
+FMA8364	right ninth rib	右第九肋骨	みぎだいきゅうろっこつ
+FMA8391	left ninth rib	左第九肋骨	ひだりだいきゅうろっこつ
+FMA8445	right tenth rib	右第十肋骨	みぎだいじゅうろっこつ
+FMA8472	left tenth rib	左第十肋骨	ひだりだいじゅうろっこつ
+FMA8531	right eleventh rib	右第十一肋骨	みぎだいじゅういちろっこつ
+FMA8532	left eleventh rib	左第十一肋骨	ひだりだいじゅういちろっこつ
+FMA8533	right twelfth rib	右第十二肋骨	みぎだいじゅうにろっこつ
+FMA8534	left twelfth rib	左第十二肋骨	ひだりだいじゅうにろっこつ
+FMA86034	opponens digiti minimi of right foot	右小趾対立筋	みぎしょうしたいりつきん
+FMA86035	opponens digiti minimi of left foot	左小趾対立筋	ひだりしょうしたいりつきん
+FMA9165	first thoracic vertebra	第一胸椎	だいいちきょうつい
+FMA9187	second thoracic vertebra	第二胸椎	だいにきょうつい
+FMA9209	third thoracic vertebra	第三胸椎	だいさんきょうつい
+FMA9248	fourth thoracic vertebra	第四胸椎	だいよんきょうつい
+FMA9352	papillary muscle of left ventricle	左心室乳頭筋	さしんしつにゅうとうきん
+FMA9352nsn	papillary muscle of left ventricle, nsn	左心室の前乳頭筋nsn	さいんしうのぜんきゅうとうきんnsn
+FMA9761	right transversus thoracis	右胸横筋	みぎきょうおうきん
+FMA9762	left transversus thoracis	左胸横筋	ひだりきょうおうきん
+FMA9922	fifth thoracic vertebra	第五胸椎	だいごきょうつい
+FMA9945	sixth thoracic vertebra	第六胸椎	だいろくきょうつい
+FMA9968	seventh thoracic vertebra	第七胸椎	だいななきょうつい
+FMA9991	eighth thoracic vertebra	第八胸椎	だいはちきょうつい
