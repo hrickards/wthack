@@ -31,6 +31,10 @@ class API(object):
         return json.dumps(existing_parts)
 
     def id_to_render(self, bid):
+        if bid == "bone":
+            cherrypy.response.headers['Content-Type'] = 'application/octet-stream'
+            return open('bone.js')
+
         infile = "data/%s.obj" % bid
         outfile = "output/%s.js" % bid
 
@@ -48,6 +52,9 @@ class API(object):
 
     def id_to_gcode(self, raw_bid):
         bid = raw_bid.strip(".obj").strip(".stl").strip(".gcode")
+        if bid == "bone":
+            cherrypy.response.headers['Content-Type'] = 'application/octet-stream'
+            return open('bone.gcode')
         return slice_gcode(bid)
 
     def obj_to_gcode(self, obj):
@@ -60,12 +67,18 @@ class API(object):
 
         return slice_gcode(bid)
 
+    def ct_to_stl(self, *args):
+        cherrypy.response.headers['Content-Type'] = 'application/octet-stream'
+        return open('static/bone.stl')
+
+
     name_to_id.exposed = True
     list_of_bones.exposed = True
     id_to_obj.exposed = True
     id_to_gcode.exposed = True
     obj_to_gcode.exposed = True
     id_to_render.exposed = True
+    ct_to_stl.exposed = True
 
 class Root(object): pass
 PATH = os.path.abspath(os.path.dirname(__file__))

@@ -10,6 +10,30 @@
     <script src="js/THREEx.WindowResize.js"></script>
     <script>
       $(function() {
+        $('#bone').bind('click', function() {
+          $('#allct').hide();
+          $('#allbone').show();
+          $('#initial').show();
+          $('#options').hide();
+          $('#render').html('');
+        });
+
+        $('#ct').bind('click', function() {
+          $('#render').html('');
+          $('#allbone').hide();
+          $('#allct').show();
+          $('#options').hide();
+        });
+
+        $('#ctsubmit').bind('click', function() {
+          $('#render').html('');
+          $('#options').show();
+          window.bid = 'bone';
+          animateBone('api/id_to_render/' + window.bid);
+          return false;
+        });
+
+
         function animateBone(modelPath) {
           init(modelPath);
           animate(new Date().getTime());
@@ -25,7 +49,7 @@
         // custom global variables
         var android;
 
-        var WIDTH = 400, HEIGHT = 300;
+        var WIDTH = 800, HEIGHT = 600;
 
         // FUNCTIONS 		
         function init(modelPath) 
@@ -63,7 +87,13 @@
           android = new THREE.Mesh( geometry, material );
           THREE.GeometryUtils.center(geometry);
 
-          android.scale.set(1, 1, 1);
+          delta = new THREE.Vector3().sub(android.geometry.boundingBox.max, android.geometry.boundingBox.min);
+          mu = 0.01;
+
+          lambda = mu * delta.length();
+          console.log(lambda);
+          android.scale.set(lambda, lambda, lambda);
+
 
           scene.add( android );
         }
@@ -93,8 +123,9 @@
           window.open('api/id_to_gcode/' + window.bid + '.gcode', '_blank');
         });
 
+        $('#allbone').hide();
+        $('#allct').hide();
         $('#options').hide();
-        $('#obj_upload').hide();
 
         function bone_select() {
           $('#options').show();
@@ -115,19 +146,27 @@
     </script>
   </head>
   <body>
-    <div id="initial">
-      Choose a bone
+    <div id="choose">
+      <a id="ct">CT</a> or <a id="bone">bone</a>?
+    </div>
+    <div id="allbone">
+      <div id="initial">
+        Choose a bone
+        <form>
+          <select id="bones">
+            <option value=""></option>
+          </select>
+        </form>
+      </div>
+    </div>
+    <div id="allct">
       <form>
-        <select id="bones">
-          <option value=""></option>
-        </select>
+        <input type="file">
+        <input id="ctsubmit" type="submit" value="Submit">
       </form>
     </div>
     <div id="options">
-      <a id="obj">Obj</a> or <a id="gcode">gcode</a>?
-    </div>
-    <div id="obj_upload">
-      return gcode
+      <a id="obj">Obj (for editing)</a> or <a id="gcode">gcode (for printing)</a>?
     </div>
     <div id="render">
     </div>
