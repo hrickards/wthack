@@ -48,10 +48,11 @@ class API(object):
 
     def id_to_obj(self, bid):
         cherrypy.response.headers['Content-Type'] = 'application/octet-stream'
+        if bid.replace(".obj", "") == "bone": return open("bone.obj", "r").read()
         return open("data/%s" % bid, 'r').read()
 
     def id_to_gcode(self, raw_bid):
-        bid = raw_bid.strip(".obj").strip(".stl").strip(".gcode")
+        bid = raw_bid.replace(".obj", "").replace(".stl", "").replace(".gcode", "")
         if bid == "bone":
             cherrypy.response.headers['Content-Type'] = 'application/octet-stream'
             return open('bone.gcode')
