@@ -114,29 +114,50 @@ text-decoration:none;}
     <script src="js/THREEx.WindowResize.js"></script>
     <script>
       $(function() {
+        var kappa = 0.5;
+
+
         $('#bone').bind('click', function() {
           $('#allct').hide();
           $('#allbone').show();
           $('#initial').show();
           $('#options').hide();
-          $('#render').html('');
+          $('#renderr').html('');
+          $('#renders').hide();
         });
 
         $('#ct').bind('click', function() {
-          $('#render').html('');
+          $('#renderr').html('');
           $('#allbone').hide();
           $('#allct').show();
+          $('#renders').hide();
           $('#options').hide();
         });
 
         $('#ctsubmit').bind('click', function() {
-          $('#render').html('');
+          $('#renderr').html('');
           $('#options').show();
+          $('#renders').show();
           window.bid = 'bone';
           animateBone('api/id_to_render/' + window.bid);
           return false;
         });
 
+        $('#plus').bind('click', function() {
+          if(typeof(window.scale)=="undefined") {
+            window.scale = 1;
+          } else {
+            window.scale += kappa;
+          }
+        });
+
+        $('#minus').bind('click', function() {
+          if(typeof(window.scale)=="undefined") {
+            window.scale = 1;
+          } else {
+            window.scale -= kappa;
+          }
+        });
 
         function animateBone(modelPath) {
           init(modelPath);
@@ -160,7 +181,7 @@ text-decoration:none;}
         {
           var VIEW_ANGLE = 45, ASPECT = WIDTH / HEIGHT, NEAR = 0.1, FAR = 20000; 
 
-          container = $('#render');
+          container = $('#renderr');
 
           renderer = new THREE.WebGLRenderer( {antialias: true} );
           camera = new THREE.PerspectiveCamera(VIEW_ANGLE, ASPECT, NEAR, FAR);
@@ -197,7 +218,7 @@ text-decoration:none;}
           lambda = mu * delta.length();
           console.log(lambda);
           android.scale.set(lambda, lambda, lambda);
-
+          window.scale = lambda;
 
           scene.add( android );
         }
@@ -208,6 +229,11 @@ text-decoration:none;}
           camera.position.z = Math.cos(t/1000)*300;
           camera.lookAt(scene.position)
           renderer.render(scene, camera);
+
+          if(typeof(android)=="object") {
+            var ta = Math.sin(t/1000)*30;
+            android.scale.set(window.scale, window.scale, window.scale);
+          }
 
           requestAnimationFrame( animate, renderer.domElement );
           render();		
@@ -230,11 +256,13 @@ text-decoration:none;}
         $('#allbone').hide();
         $('#allct').hide();
         $('#options').hide();
+        $('#renders').hide();
 
         function bone_select() {
           $('#options').show();
           window.bid = $('#bones option:selected').val();
           animateBone('api/id_to_render/' + window.bid);
+          $('#renders').show();
         }
 
         $.ajax({
@@ -256,10 +284,10 @@ text-decoration:none;}
 </header>
 <nav id="navbar">
 <ul>
-<li><a href="bone.html" >Home</a></li>
+<li><a href="index.html" >Home</a></li>
 <li><a id="link" href="http://www.blender.org/" target="_blank">Blender</a></li>
 <li><a href="data.html" >Data</a></li>
-<li><a href="demo.html" >Demo</a></li>
+<li><a href="#" >Demo</a></li>
 </ul>
 </nav>
 <div>
@@ -267,7 +295,7 @@ text-decoration:none;}
 </div>
 <section id="white">
     <div id="choose">
-      <a id="ct">CT</a> or <a id="bone">bone</a>?
+      <button id="ct">CT scan</button><button id="bone">Generic Bone</button>
     </div>
     <div id="allbone">
       <div id="initial">
@@ -286,9 +314,14 @@ text-decoration:none;}
       </form>
     </div>
     <div id="options">
-      <a id="obj">Obj (for editing)</a> or <a id="gcode">gcode (for printing)</a>?
+      Download <button id="obj">OBJ (editing)</button><button id="gcode">GCode (printing)</button>
     </div>
     <div id="render">
+      <div id="renders">
+        <button id="plus">+</button><button id="minus">-</button>
+      </div>
+      <div id="renderr">
+      </div>
     </div>
 </section>
 <footer id="zzz">

@@ -11,6 +11,7 @@ import json
 import os
 import convert_obj_three
 import threading
+import glob
 
 parts = map(lambda r: r.split("\t"), open('parts_list.txt', 'r').read().split("\n")[1:-1])
 parts = map(lambda r: {'bid': r[0], 'name': r[1]}, parts)
@@ -73,6 +74,14 @@ class API(object):
         cherrypy.response.headers['Content-Type'] = 'application/octet-stream'
         return open('static/bone.stl')
 
+    def all_data(self):
+        data = map(lambda r: r.replace(".obj", "").replace("data/", ""), glob.glob("data/*.obj"))
+        data = map(lambda r: {'id': r, 'name': filter(lambda s: s['bid'] == r, parts)[0]['name'], 'link': "/api/id_to_obj/%s.obj" % r }, data)
+        response = data
+
+        return json.dumps(response)
+
+
 
     name_to_id.exposed = True
     list_of_bones.exposed = True
@@ -81,11 +90,13 @@ class API(object):
     obj_to_gcode.exposed = True
     id_to_render.exposed = True
     ct_to_stl.exposed = True
+    all_data.exposed = True
 
 class Root(object): pass
 PATH = os.path.abspath(os.path.dirname(__file__))
 
 cherrypy.config.update({'server.socket_port': 9999})
+cherrypy.config.update({'server.socket_host': '0.0.0.0'})
 cherrypy.tree.mount(API(), '/api')
 cherrypy.tree.mount(Root(), '/', config={
     '/': {

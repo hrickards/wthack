@@ -27,7 +27,7 @@ background-position:top left;
 #zzz{
 	border-top:2px solid #f0f0f0;
 	position:relative;
-	top:-11.1em;
+	top:0;
 	margin-left:auto;
 	margin-right:auto;
 	width:1000px;
@@ -84,13 +84,13 @@ height:auto;
 position:relative;
 top:-15.5em;
 left:25em;}
-a:link {color:#000;
+#navbar a:link {color:#000;
 text-decoration:none;}
-a:visited {color:#000;
+#navbar a:visited {color:#000;
 text-decoration:none;}
-a:hover {color:#000;
+#navbar a:hover {color:#000;
 text-decoration:none;} 
-a:active {color:#000;
+#navbar a:active {color:#000;
 text-decoration:none;}
  #galleria{
 	 position:relative;
@@ -105,6 +105,20 @@ text-decoration:none;}
 	color: rgba(0,0,0,0.5);
 }
 </style>
+    <script src="js/jquery.min.js"></script>
+    <script>
+      $(function() {
+        $.ajax({
+          url: "api/all_data",
+          dataType: 'json'
+        }).done(function(data) {
+          $.each(data, function(v, k) {
+            $('#bones').append('<div class="bone"><a href="' + k['link'] + '">' + k['id'] + ' - ' + k['name'] + '</a></div>');
+          });
+          $('#bones').bind('change', bone_select);
+        });
+      });
+    </script>
 </head>
 <body>
 <div id="page">
@@ -113,9 +127,9 @@ text-decoration:none;}
 </header>
 <nav id="navbar">
 <ul>
-<li><a href="#" >Home</a></li>
+<li><a href="index.html" >Home</a></li>
 <li><a id="link" href="http://www.blender.org/" target="_blank">Blender</a></li>
-<li><a href="data.html" >Data</a></li>
+<li><a href="#" >Data</a></li>
 <li><a href="demo.html" >Demo</a></li>
 </ul>
 </nav>
@@ -123,25 +137,10 @@ text-decoration:none;}
 <img src="under_nav_bar.gif">
 </div>
 <section id="white">
-<div id="galleria">
-<img src="photo1.png">
-<img src="photo2.png">
-<img src="photo3.png">
+<input type="file">
+<button>Upload</button>
+<div id="bones">
 </div>
-<script>
-            Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
-            Galleria.run('#galleria');
-        </script>
-<section id="text">
-<p>3D Printing is expanding fast. <a href="http://www.youtube.com/watch?v=3xaj9jx7648" target="_blank"><b>The models printed </b></a>are becoming more and more sophiscated as time go by. But although the majority of the models are open source, the hardware is still expensive. This means that not a lot of people can gain access to it. However, nothing is stopping us from "playing" with the available software.
-</p>
-<p>
-We believe that 3D printing will play a vital part in the future of medicine and healthcare. However, we can't rely on a few developers writing the software. They need the community to engage and help, so we as a society can benefit as soon as possible from this amazing technology.
-</p>
-<p>
-Boneplicator aims to get people from all over the world developing their ideas and expanding our database.
-</p>
-</section>
 </section>
 <footer id="zzz">
 <p id="index">Made by Harry Rickards and Veselin Vankov for Wellcome Trust@Rewired State
