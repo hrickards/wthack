@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<head>
+<title>Boneplicator</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+<script src="galleria/galleria-1.2.8.min.js">
+</script>
+<style type="text/css">
+body{
+	height:768px;
+	background: rgb(198,198,198); 
+background: -moz-linear-gradient(top, rgba(198,198,198,1) 0%, rgba(255,255,255,1) 100%); 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(198,198,198,1)), color-stop(100%,rgba(255,255,255,1))); 
+background: -webkit-linear-gradient(top, rgba(198,198,198,1) 0%,rgba(255,255,255,1) 100%); 
+background: -o-linear-gradient(top, rgba(198,198,198,1) 0%,rgba(255,255,255,1) 100%); 
+background: -ms-linear-gradient(top, rgba(198,198,198,1) 0%,rgba(255,255,255,1) 100%);
+background: linear-gradient(to bottom, rgba(198,198,198,1) 0%,rgba(255,255,255,1) 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6c6c6', endColorstr='#ffffff',GradientType=0 );
+background-repeat:no-repeat;
+background-position:top left;
+}
+#page{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	height:768px;
+}
+#zzz{
+	border-top:2px solid #f0f0f0;
+	position:relative;
+	top:0;
+	margin-left:auto;
+	margin-right:auto;
+	width:1000px;
+	height:auto;
+	background-image:url(footer.png);
+	background-position:center center;
+	text-align:center;
+	vertical-align:middle;
+}
+#navbar{
+	width:1000px;
+	background:url(button1a.gif)	repeat-x;
+	list-style:none;
+	height:40px;
+	vertical-align:middle;
+}
+#navbar li
+{	border: 0px;
+	margin:0px;
+	padding: 0px;
+	list-style-type: none;
+	font-size: 100%;
+	position: relative;
+	text-align: center;
+	margin-top:0.4em;
+	cursor: pointer;
+	width: 24.9%;
+	float: left;
+	height:30px;
+}
+#navbar li:hover{
+	background-color:#e5e6e6;
+}
+#white{
+	background:#ffffff;
+	width:1000px;
+	height:auto;
+}
+#gallery{
+	position:relative;
+	top:1.5em;
+	left:0.4em;
+}
+#buttons{
+	position:relative;
+	left:-212px;
+	top:26px;
+}
+#text{
+	z-index:1000;
+	background-color:#fff;
+width:37.5em;
+height:auto;
+position:relative;
+top:-15.5em;
+left:25em;}
+a:link {color:#000;
+text-decoration:none;}
+a:visited {color:#000;
+text-decoration:none;}
+a:hover {color:#000;
+text-decoration:none;} 
+a:active {color:#000;
+text-decoration:none;}
+ #galleria{
+	 position:relative;
+	 top:10px;
+	 left:10px;
+	 width: 300px;
+	 height: 250px;
+	 background: #000;
+}
+#index{
+	z-index:1000;
+	color: rgba(0,0,0,0.5);
+}
+</style>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/Three.js"></script>
+    <script src="js/Detector.js"></script>
+    <script src="js/Stats.js"></script>
+    <script src="js/THREEx.KeyboardState.js"></script>
+    <script src="js/THREEx.FullScreen.js"></script>
+    <script src="js/THREEx.WindowResize.js"></script>
+    <script>
+      $(function() {
+        $('#bone').bind('click', function() {
+          $('#allct').hide();
+          $('#allbone').show();
+          $('#initial').show();
+          $('#options').hide();
+          $('#render').html('');
+        });
+
+        $('#ct').bind('click', function() {
+          $('#render').html('');
+          $('#allbone').hide();
+          $('#allct').show();
+          $('#options').hide();
+        });
+
+        $('#ctsubmit').bind('click', function() {
+          $('#render').html('');
+          $('#options').show();
+          window.bid = 'bone';
+          animateBone('api/id_to_render/' + window.bid);
+          return false;
+        });
+
+
+        function animateBone(modelPath) {
+          init(modelPath);
+          animate(new Date().getTime());
+        }
+
+        /* 	Three.js  */
+
+        // MAIN
+        if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
+        // standard global variables
+        var container, scene, camera, renderer, controls, stats;
+
+        // custom global variables
+        var android;
+
+        var WIDTH = 800, HEIGHT = 600;
+
+        // FUNCTIONS 		
+        function init(modelPath) 
+        {
+          var VIEW_ANGLE = 45, ASPECT = WIDTH / HEIGHT, NEAR = 0.1, FAR = 20000; 
+
+          container = $('#render');
+
+          renderer = new THREE.WebGLRenderer( {antialias: true} );
+          camera = new THREE.PerspectiveCamera(VIEW_ANGLE, ASPECT, NEAR, FAR);
+
+          scene = new THREE.Scene();
+          scene.add(camera);
+
+          // camera.position.set(0,150,400);
+          camera.position.z = 300;
+
+          renderer.setSize(WIDTH, HEIGHT);
+          container.html(renderer.domElement);
+
+          var light = new THREE.PointLight(0xffffff);
+          light.position.set(-100,200,100);
+          scene.add(light);
+
+          var jsonLoader = new THREE.JSONLoader();
+          jsonLoader.load( modelPath, addModelToScene );
+
+          var ambientLight = new THREE.AmbientLight(0x111111);
+          scene.add(ambientLight);
+        }
+
+        function addModelToScene( geometry ) 
+        {
+          var material = new THREE.MeshFaceMaterial();
+          android = new THREE.Mesh( geometry, material );
+          THREE.GeometryUtils.center(geometry);
+
+          delta = new THREE.Vector3().sub(android.geometry.boundingBox.max, android.geometry.boundingBox.min);
+          mu = 0.01;
+
+          lambda = mu * delta.length();
+          console.log(lambda);
+          android.scale.set(lambda, lambda, lambda);
+
+
+          scene.add( android );
+        }
+
+        function animate(t) {
+          camera.position.x = Math.sin(t/1000)*300;
+          camera.position.y = 150;
+          camera.position.z = Math.cos(t/1000)*300;
+          camera.lookAt(scene.position)
+          renderer.render(scene, camera);
+
+          requestAnimationFrame( animate, renderer.domElement );
+          render();		
+        }
+
+        function render() 
+        {
+          renderer.render( scene, camera );
+        }
+
+
+        $('#obj').bind('click', function() {
+          window.open('api/id_to_obj/' + window.bid + '.obj', '_blank');
+        });
+
+        $('#gcode').bind('click', function() {
+          window.open('api/id_to_gcode/' + window.bid + '.gcode', '_blank');
+        });
+
+        $('#allbone').hide();
+        $('#allct').hide();
+        $('#options').hide();
+
+        function bone_select() {
+          $('#options').show();
+          window.bid = $('#bones option:selected').val();
+          animateBone('api/id_to_render/' + window.bid);
+        }
+
+        $.ajax({
+          url: "api/list_of_bones",
+          dataType: 'json'
+        }).done(function(data) {
+          $.each(data, function(v, k) {
+            $('#bones').append('<option value="' + k['bid'] + '">' + k['name'] + '</option>');
+          });
+          $('#bones').bind('change', bone_select);
+        });
+      });
+    </script>
+</head>
+<body>
+<div id="page">
+<header>
+<img src="boneplicator.png">
+</header>
+<nav id="navbar">
+<ul>
+<li><a href="bone.html" >Home</a></li>
+<li><a id="link" href="http://www.blender.org/" target="_blank">Blender</a></li>
+<li><a href="data.html" >Data</a></li>
+<li><a href="demo.html" >Demo</a></li>
+</ul>
+</nav>
+<div>
+<img src="under_nav_bar.gif">
+</div>
+<section id="white">
+    <div id="choose">
+      <a id="ct">CT</a> or <a id="bone">bone</a>?
+    </div>
+    <div id="allbone">
+      <div id="initial">
+        Choose a bone
+        <form>
+          <select id="bones">
+            <option value=""></option>
+          </select>
+        </form>
+      </div>
+    </div>
+    <div id="allct">
+      <form>
+        <input type="file">
+        <input id="ctsubmit" type="submit" value="Submit">
+      </form>
+    </div>
+    <div id="options">
+      <a id="obj">Obj (for editing)</a> or <a id="gcode">gcode (for printing)</a>?
+    </div>
+    <div id="render">
+    </div>
+</section>
+<footer id="zzz">
+<p id="index">Made by Harry Rickards and Veselin Vankov for Wellcome Trust@Rewired State
+</p>
+</footer>
+</div>
+</body>
+</html>

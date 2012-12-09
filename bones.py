@@ -21,6 +21,7 @@ def slice_gcode(bid):
         cherrypy.response.headers['Content-Type'] = 'application/octet-stream'
         return gcode
     except IOError as e:
+        print "slic3r.pl data/%s.obj -o output/%s.gcode" % (bid, bid)
         t = threading.Thread(target=lambda: os.system("slic3r.pl data/%s.obj -o output/%s.gcode" % (bid, bid)))
         t.start()
         return json.dumps({'status': 'Slicing. Try again soon'})

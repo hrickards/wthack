@@ -54,6 +54,13 @@
         // FUNCTIONS 		
         function init(modelPath) 
         {
+          scene.remove(android);
+          android.transverse(function(object) {
+            renderer.deallocateObject( object );
+            object.geometry.deallocate();
+            object.material.deallocate();
+            object.deallocate();
+          } );
           var VIEW_ANGLE = 45, ASPECT = WIDTH / HEIGHT, NEAR = 0.1, FAR = 20000; 
 
           container = $('#render');
